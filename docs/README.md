@@ -7,7 +7,7 @@ description: >-
 # Product Updates
 
 {% hint style="info" %}
-\*Setup info for RSS feed\*
+Subscribe to the [RSS feed](https://raw.githubusercontent.com/snyk/product-updates-docs/main/rss) so you don't miss any updates.&#x20;
 {% endhint %}
 
 ***
