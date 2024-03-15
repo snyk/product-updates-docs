@@ -4,8 +4,15 @@
 		<link>https://snyk.gitbook.io/product-updates/</link>
 		<description>Testing a markdown to RSS script.</description>
 		<language>en-us</language>
-		<pubDate>Fri, 15 Mar 2024 14:47:43 GMT</pubDate>
+		<pubDate>Fri, 15 Mar 2024 18:08:13 GMT</pubDate>
 		<ns0:link href="https://raw.githubusercontent.com/snyk/product-updates-docs/main/rss" rel="self" type="application/rss+xml" />
+		<item>
+			<title>License issues alignment in reporting</title>
+			<pubDate>Thu, 29 Feb 2024 00:00:00 GMT</pubDate>
+			<link>https://snyk.gitbook.io/product-updates#License-issues-alignment-in-reporting</link>
+			<guid>https://snyk.gitbook.io/product-updates#License-issues-alignment-in-reporting_February_29_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;Improved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;In about a week, Snyk will update the logic for &lt;strong&gt;counting license issues&lt;/strong&gt; in both Reports and Enterprise Analytics pages to better align with the way license issues are counted in Snyk projects page and Issues API. This will provide customers with a more consistent user experience across Snyk platform and ensure that license issue counts received from different Snyk interfaces are aligned. Customers using Snyk Open Source will see fewer issues in reporting once this change is applied, as the paths by which an issue is introduced will no longer be counted separately. Please reach out to your account team with any questions.&lt;/p&gt;</description>
+		</item>
 		<item>
 			<title>New CWE TOP 10 KEV (Known Exploited Vulnerabilities) Report</title>
 			<pubDate>Mon, 26 Feb 2024 00:00:00 GMT</pubDate>
