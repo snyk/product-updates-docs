@@ -1,8 +1,8 @@
 <rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
 	<channel>
-		<title>Test changelog</title>
+		<title>Snyk Product Updates</title>
 		<link>https://snyk.gitbook.io/product-updates/</link>
-		<description>Testing a markdown to RSS script.</description>
+		<description>Snyk product updates.</description>
 		<language>en-us</language>
 		<pubDate>Fri, 15 Mar 2024 18:13:08 GMT</pubDate>
 		<ns0:link href="https://raw.githubusercontent.com/snyk/product-updates-docs/main/rss" rel="self" type="application/rss+xml" />
