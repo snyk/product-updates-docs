@@ -12,6 +12,22 @@ Subscribe to the [RSS feed](https://raw.githubusercontent.com/snyk/product-updat
 
 ***
 
+## Snyk AppRisk - Bring Backstage Data into AppRisk
+
+March 25, 2024
+
+**New**
+
+We're pleased to share that Snyk AppRisk will allow customers to bring Backstage data into AppRisk as their org context information. You can now see the repo assets in AppRisk with the Backstage catalog info yaml file; this will make it easy for our user to manage their repo assets.
+
+What is this feature about? Enable customers to add catalog info yaml, allow the customer to bring their organizational context into AppRisk. Enrich repo assets with metadata from Backstage. This allows customers to filter the asset inventory and build policies based on Backstage metadata.
+
+This feature will be available for AppRisk Essentials and AppRisk Pro, which will be available for all SCM integrations that AppRisk supports.
+
+Please see our [Snyk documentation](https://docs.snyk.io/manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/backstage-file-for-scm-integrations) for more details, and contact your account team with any questions.
+
+***
+
 ## Snyk AppRisk - Two new filters in Policy Builder
 
 March 18, 2024
