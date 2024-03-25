@@ -4,11 +4,23 @@ description: >-
   Snyk's product offerings. Contact support if you require assistance.
 ---
 
-# Product Updates
+# Snyk Product Updates
 
 {% hint style="info" %}
 Subscribe to the [RSS feed](https://raw.githubusercontent.com/snyk/product-updates-docs/main/rss) so you don't miss any updates.&#x20;
 {% endhint %}
+
+***
+
+## Snyk AppRisk - Two new filters in Policy Builder
+
+March 18, 2024
+
+**New**
+
+We're excited to introduce two new filters to AppRisk Policies - “Repository Freshness” and “Source”. The two new filters unlock new use cases for policy creation. For example, users can now fine-tune policies with “repository freshness” condition to ignore inactive repositories. Additionally, they can take different actions for assets originating from different sources.
+
+Previously available only in Asset Inventory, these two filters are now seamlessly integrated into AppRisk Policies as well. For more information, please refer to [Snyk documentation](https://docs.snyk.io/manage-risk/snyk-apprisk/policies-for-snyk-apprisk/create-policies).
 
 ***
 
