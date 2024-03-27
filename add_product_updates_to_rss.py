@@ -46,7 +46,7 @@ def process_new_entry():
 for entry in entries: 
     entry_text = re.search("^## ([\S ]*?)\n\n([\S ]*?)\n\n(\*\*([\S ]*?)\*\*\n\n|)([\S\s]*?)\Z",entry)
     entry_title_text = entry_text.group(1)
-    entry_title_for_url = str(entry_title_text).replace(" - "," ").replace("—","").replace("’","").replace('"','').replace(":","") 
+    entry_title_for_url = str(entry_title_text).lower().replace(" - "," ").replace("—","").replace("’","").replace('"','').replace(":","") 
     entry_date_text = entry_text.group(2)
     item_time = datetime.datetime.now(datetime.timezone.utc).strftime("%H:%M:%S GMT")
     item_date_and_time = f"{entry_date_text} {item_time}"
