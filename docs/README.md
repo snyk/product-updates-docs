@@ -12,6 +12,24 @@ Subscribe to the [RSS feed](https://raw.githubusercontent.com/snyk/product-updat
 
 ***
 
+## Configurable Python version in Snyk Open Source SCM scans is now GA!
+
+April 3, 2024
+
+**New**
+
+We are very pleased to announce that the option to define Python minor version when scanning pip projects via Git integrations is now GA!
+
+Until now, Snyk would always use either Python 2.7 or 3.7 which could lead to some dependencies being omitted from results if they require newer versions.
+
+You can now specify minor versions of Python 3 to use in scans, up to 3.12.
+
+To try this out go to Settings > Languages > Python and specify the Python version to use.
+
+For more details see the documentation [available here](https://docs.snyk.io/scan-using-snyk/supported-languages-and-frameworks/python#pip-and-python-versions).
+
+***
+
 ## Snyk AppRisk Essentials: New features and unified UI
 
 March 28, 2024
