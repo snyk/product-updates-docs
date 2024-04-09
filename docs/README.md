@@ -14,7 +14,7 @@ Subscribe to the [RSS feed](https://raw.githubusercontent.com/snyk/product-updat
 
 ## Snyk AppRisk - Bring Backstage Data into AppRisk
 
-March 27, 2024
+March 25, 2024
 
 **New**
 
