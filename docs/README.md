@@ -12,6 +12,46 @@ Subscribe to the [RSS feed](https://raw.githubusercontent.com/snyk/product-updat
 
 ***
 
+## Free Plans Test Enforcement - Phase 1
+
+April 16, 2024
+
+**New**
+
+For customers on free plans, we plan to implement hard enforcements on monthly test limits. Specifically, we are starting work on the enforcement of test limits through the push flow. The work will begin on Monday, April 29th and plan to be complete by Thursday, May 2nd.
+
+Please be aware that this feature will only impact customers on the free plan, who do not pay for any Snyk products. Customers with one or more paid products will not be affected by this feature.
+
+***
+
+## Updated Project Page Layout
+
+April 12, 2024
+
+**Improved**
+
+For your awareness, minor updates to our Project page will be introduced over the next week. In the topmost heading, tabs related to the project overview, history, and settings are migrating higher on the page. In addition, modifications will be made to the project breadcrumbs.
+
+Please be aware any temporary inconsistencies between organizations will resolve themselves shortly!
+
+***
+
+## Automated Collections (Early Access)
+
+April 12, 2024
+
+**New**
+
+We’re happy to introduce Automated Collections to help you easily manage all your Snyk Projects.
+
+With Automated Collections enabled, similar Projects from different integration types are automatically grouped into a collection to filter and report on the issues of your preferred scanning method easily and hide duplicate results.
+
+You’ll find the option to enable Automated Collections under a new entry in the Organization Settings menu. After Automated Collections are enabled, it may take minutes (up to an hour) to analyze all the Organization’s Projects and group them by their Target URL.
+
+**Please note** that Collections and Automated Collections are only available for customers on the Snyk Enterprise plan. Read more about how [automatically created Project collections](https://docs.snyk.io/snyk-admin/snyk-projects/automatically-created-project-collections) help you track issues, and contact your account team with any questions.
+
+***
+
 ## Configurable Python version in Snyk Open Source SCM scans is now GA!
 
 April 3, 2024
