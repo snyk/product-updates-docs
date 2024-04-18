@@ -4,8 +4,34 @@
 		<link>https://snyk.gitbook.io/product-updates/</link>
 		<description>Snyk product updates.</description>
 		<language>en-us</language>
-		<pubDate>Tue, 09 Apr 2024 17:51:27 GMT</pubDate>
+		<pubDate>Thu, 18 Apr 2024 18:25:44 GMT</pubDate>
 		<ns0:link href="https://raw.githubusercontent.com/snyk/product-updates-docs/main/rss" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Free Plans Test Enforcement - Phase 1</title>
+			<pubDate>Tue, 16 Apr 2024 18:25:44 GMT</pubDate>
+			<link>https://snyk.gitbook.io/product-updates#free-plans-test-enforcement-phase-1</link>
+			<guid>https://snyk.gitbook.io/product-updates#free-plans-test-enforcement-phase-1_April_16_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;For customers on free plans, we plan to implement hard enforcements on monthly test limits. Specifically, we are starting work on the enforcement of test limits through the push flow. The work will begin on Monday, April 29th and plan to be complete by Thursday, May 2nd.&lt;/p&gt;
+&lt;p&gt;Please be aware that this feature will only impact customers on the free plan, who do not pay for any Snyk products. Customers with one or more paid products will not be affected by this feature.&lt;/p&gt;</description>
+		</item>
+		<item>
+			<title>Updated Project Page Layout</title>
+			<pubDate>Fri, 12 Apr 2024 18:25:44 GMT</pubDate>
+			<link>https://snyk.gitbook.io/product-updates#updated-project-page-layout</link>
+			<guid>https://snyk.gitbook.io/product-updates#updated-project-page-layout_April_12_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;Improved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;For your awareness, minor updates to our Project page will be introduced over the next week. In the topmost heading, tabs related to the project overview, history, and settings are migrating higher on the page. In addition, modifications will be made to the project breadcrumbs.&lt;/p&gt;
+&lt;p&gt;Please be aware any temporary inconsistencies between organizations will resolve themselves shortly!&lt;/p&gt;</description>
+		</item>
+		<item>
+			<title>Automated Collections (Early Access)</title>
+			<pubDate>Fri, 12 Apr 2024 18:25:44 GMT</pubDate>
+			<link>https://snyk.gitbook.io/product-updates#automated-collections-(early-access)</link>
+			<guid>https://snyk.gitbook.io/product-updates#automated-collections-(early-access)_April_12_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We&#8217;re happy to introduce Automated Collections to help you easily manage all your Snyk Projects.&lt;/p&gt;
+&lt;p&gt;With Automated Collections enabled, similar Projects from different integration types are automatically grouped into a collection to filter and report on the issues of your preferred scanning method easily and hide duplicate results.&lt;/p&gt;
+&lt;p&gt;You&#8217;ll find the option to enable Automated Collections under a new entry in the Organization Settings menu. After Automated Collections are enabled, it may take minutes (up to an hour) to analyze all the Organization&#8217;s Projects and group them by their Target URL.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Please note&lt;/strong&gt; that Collections and Automated Collections are only available for customers on the Snyk Enterprise plan. Read more about how &lt;a href="https://docs.snyk.io/snyk-admin/snyk-projects/automatically-created-project-collections"&gt;automatically created Project collections&lt;/a&gt; help you track issues, and contact your account team with any questions.&lt;/p&gt;</description>
+		</item>
 		<item>
 			<title>Configurable Python version in Snyk Open Source SCM scans is now GA!</title>
 			<pubDate>Wed, 03 Apr 2024 17:51:27 GMT</pubDate>
