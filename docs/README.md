@@ -12,6 +12,31 @@ Subscribe to the [RSS feed](https://raw.githubusercontent.com/snyk/product-updat
 
 ***
 
+## Test an SBOM using the Snyk CLI
+
+April 19, 2024
+
+**Early Access**
+
+We are very pleased to announce that you can now use the Snyk CLI to scan CycloneDX and SPDX SBOM files!
+
+Snyk has enabled SBOM testing [via the API](https://apidocs.snyk.io/?version=2023-08-31\~beta#post-/orgs/-org\_id-/sbom\_tests) for a while. Adding this to the CLI makes it significantly easier to test SBOMs produced using other tools, or SBOMs received from 3rd-party vendors.
+
+To get started install Snyk CLI [v1.1290](https://github.com/snyk/cli/releases/tag/v1.1290.0) or above, and run the following command (using your actual SBOM file name 😉).
+
+```cli
+snyk sbom test --experimental --file=bom.cdx.json
+```
+
+This feature is in Open Beta, the following SBOM formats are currently supported.
+
+* CycloneDX: JSON version 1.4 and 1.5
+* SPDX: JSON version 2.3
+
+See `snyk help` or [Snyk User Docs](https://docs.snyk.io/snyk-cli/commands/sbom-test) for more usage details 🙌
+
+***
+
 ## Free Plans Test Enforcement - Phase 1
 
 April 16, 2024
