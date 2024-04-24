@@ -12,6 +12,27 @@ Subscribe to the [RSS feed](https://raw.githubusercontent.com/snyk/product-updat
 
 ***
 
+DeepCode AI Fix - VS Code UX Improvements
+
+April 24, 2024
+
+Improved
+
+We are very happy to introduce an improved DeepCode AI Fix experience for Visual Studio Code. Developers will have a more streamlined experience by:
+
+* Having visibility of how many issues are autofixable
+* Being able to generate fixes from the issue details panel
+* Having a preview of the possible fixes before they are applied
+* Guidance to the code that has changed
+
+These improvements come on top of our general fix quality improvements we have been working on, which you can read about on our [new blog post!](https://snyk.io/blog/ai-code-security-snyk-autofix-deepcode-ai/)
+
+For details on how to get started with DeepCode AI Fix and start fixing Snyk Code issues, please visit our [documentation](https://docs.snyk.io/scan-with-snyk/snyk-code/manage-code-vulnerabilities/fix-code-vulnerabilities-automatically#enable-deepcode-ai-fix).
+
+<figure><img src=".gitbook/assets/vs_code_ui.png" alt="" width="375"><figcaption></figcaption></figure>
+
+***
+
 ## Test an SBOM using the Snyk CLI
 
 April 19, 2024
