@@ -12,11 +12,11 @@ Subscribe to the [RSS feed](https://raw.githubusercontent.com/snyk/product-updat
 
 ***
 
-DeepCode AI Fix - VS Code UX Improvements
+## DeepCode AI Fix - VS Code UX Improvements
 
 April 24, 2024
 
-Improved
+**Improved**
 
 We are very happy to introduce an improved DeepCode AI Fix experience for Visual Studio Code. Developers will have a more streamlined experience by:
 
