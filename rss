@@ -4,7 +4,7 @@
 		<link>https://snyk.gitbook.io/product-updates/</link>
 		<description>Snyk product updates.</description>
 		<language>en-us</language>
-		<pubDate>Fri, 19 Apr 2024 17:19:48 GMT</pubDate>
+		<pubDate>Wed, 24 Apr 2024 13:44:32 GMT</pubDate>
 		<ns0:link href="https://raw.githubusercontent.com/snyk/product-updates-docs/main/rss" rel="self" type="application/rss+xml" />
 		<item>
 			<title>Test an SBOM using the Snyk CLI</title>
