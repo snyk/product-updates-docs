@@ -4,8 +4,24 @@
 		<link>https://snyk.gitbook.io/product-updates/</link>
 		<description>Snyk product updates.</description>
 		<language>en-us</language>
-		<pubDate>Wed, 24 Apr 2024 13:44:32 GMT</pubDate>
+		<pubDate>Wed, 24 Apr 2024 13:49:07 GMT</pubDate>
 		<ns0:link href="https://raw.githubusercontent.com/snyk/product-updates-docs/main/rss" rel="self" type="application/rss+xml" />
+		<item>
+			<title>DeepCode AI Fix - VS Code UX Improvements</title>
+			<pubDate>Wed, 24 Apr 2024 13:49:07 GMT</pubDate>
+			<link>https://snyk.gitbook.io/product-updates#deepcode-ai-fix-vs-code-ux-improvements</link>
+			<guid>https://snyk.gitbook.io/product-updates#deepcode-ai-fix-vs-code-ux-improvements_April_24_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;Improved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are very happy to introduce an improved DeepCode AI Fix experience for Visual Studio Code. Developers will have a more streamlined experience by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Having visibility of how many issues are autofixable&lt;/li&gt;
+&lt;li&gt;Being able to generate fixes from the issue details panel&lt;/li&gt;
+&lt;li&gt;Having a preview of the possible fixes before they are applied&lt;/li&gt;
+&lt;li&gt;Guidance to the code that has changed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These improvements come on top of our general fix quality improvements we have been working on, which you can read about on our &lt;a href="https://snyk.io/blog/ai-code-security-snyk-autofix-deepcode-ai/"&gt;new blog post!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For details on how to get started with DeepCode AI Fix and start fixing Snyk Code issues, please visit our &lt;a href="https://docs.snyk.io/scan-with-snyk/snyk-code/manage-code-vulnerabilities/fix-code-vulnerabilities-automatically#enable-deepcode-ai-fix"&gt;documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://github.com/snyk/product-updates-docs/gitbook/assets/vs_code_ui.png" alt="" width="375"&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/figure&gt;</description>
+		</item>
 		<item>
 			<title>Test an SBOM using the Snyk CLI</title>
 			<pubDate>Fri, 19 Apr 2024 17:19:48 GMT</pubDate>
