@@ -4,8 +4,28 @@
 		<link>https://snyk.gitbook.io/product-updates/</link>
 		<description>Snyk product updates.</description>
 		<language>en-us</language>
-		<pubDate>Wed, 24 Apr 2024 13:49:07 GMT</pubDate>
+		<pubDate>Fri, 26 Apr 2024 18:15:09 GMT</pubDate>
 		<ns0:link href="https://raw.githubusercontent.com/snyk/product-updates-docs/main/rss" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Snyk Code Improvements: New Sanitization Logic in Snyk Code</title>
+			<pubDate>Fri, 26 Apr 2024 18:15:09 GMT</pubDate>
+			<link>https://snyk.gitbook.io/product-updates#snyk-code-improvements-new-sanitization-logic-in-snyk-code</link>
+			<guid>https://snyk.gitbook.io/product-updates#snyk-code-improvements-new-sanitization-logic-in-snyk-code_April_26_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;Improved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are excited to announce an update to Snyk Code's sanitization logic, enhancing the accuracy of our SAST testing across all supported languages. This upgrade introduces argument position awareness to our taint analysis, significantly reducing false positives in vulnerability detection.&lt;/p&gt;
+&lt;p&gt;This update resolves inconsistencies previously seen, especially in interfile sanitization, where the behavior of functions defined and called across different files could lead to varying results. The new logic ensures consistent detection and reporting, improving the clarity and reliability of code security assessments.&lt;/p&gt;
+&lt;p&gt;Should you need further information or support, please contact your account team.&lt;/p&gt;
+&lt;p&gt;Thank you for using Snyk Code to enhance your application security.&lt;/p&gt;</description>
+		</item>
+		<item>
+			<title>Snyk Code Improvements: Support for Python FastAPI</title>
+			<pubDate>Fri, 26 Apr 2024 18:15:09 GMT</pubDate>
+			<link>https://snyk.gitbook.io/product-updates#snyk-code-improvements-support-for-python-fastapi</link>
+			<guid>https://snyk.gitbook.io/product-updates#snyk-code-improvements-support-for-python-fastapi_April_26_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;Improved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are pleased to announce that Snyk Code now includes support for the FastAPI framework. This update enhances our ability to identify and analyze FastAPI-specific sources and sinks, improving the detection of security vulnerabilities in applications using this framework.&lt;/p&gt;
+&lt;p&gt;This new feature is integrated into Snyk Code&#8217;s existing scanning processes and is available for use immediately for all Python rules. We recommend conducting a fresh scan to benefit from the updated functionality.&lt;/p&gt;
+&lt;p&gt;As always, our goal is to assist you in enhancing your application's security by providing precise, framework-specific vulnerability detection. For detailed information or support, please reach out to your account team.&lt;/p&gt;
+&lt;p&gt;Thank you for using Snyk Code to secure your software development.&lt;/p&gt;</description>
+		</item>
 		<item>
 			<title>DeepCode AI Fix - VS Code UX Improvements</title>
 			<pubDate>Wed, 24 Apr 2024 13:49:07 GMT</pubDate>
