@@ -12,6 +12,77 @@ Subscribe to the [RSS feed](https://raw.githubusercontent.com/snyk/product-updat
 
 ***
 
+## Filter through your audit logs more efficiently with the new GA REST version of the audit logs API, and api.access is now opt-in
+
+April 30, 2024
+
+**New**, **Improved**
+
+We've made some great new improvements to our existing GA REST audit log API to help you filter and find the logs you need more efficiently:
+
+1. **Filter over time** - Previously, users faced challenges filtering audit logs due to the smallest unit being within a day. This difficulty escalates for users who may need to sift through millions of logs to find specific events. Now, by expanding filtering options to larger time periods and reducing the minimum granularity to 1-second ranges, customers can broaden their search while pinpointing crucial audit events like security breaches or for external audits.
+2. **Exclude events** - some users can have millions of audit logs being produced every day so they need the ability to exclude certain events to reduce the noise of what they have to sieve through. We already have exclude events in the API today but you can only provide 1 include or exclude event, so we’ve improved this by providing multiple include and exclude events.
+
+For more information, check out the [API documentation](https://apidocs.snyk.io/?version=2024-04-29#get-/groups/-group\_id-/audit\_logs/search), and we hope you update your version and enjoy these new improvements soon!
+
+In addition, we are making `api.access` endpoint to be opt-in for users rather than automatically returning results due to feedback that `api.access` causes noise problems. We’re actively working towards a proper audit event for actions.
+
+***
+
+## Introducing Semantic Versioning, and Release Channels to Snyk CLI
+
+April 30, 2024
+
+**New**
+
+We are pleased to introduce Semantic Versioning and Release Channels to Snyk CLI from [v.1.1291.0](https://github.com/snyk/cli/releases/tag/v1.1291.0) onwards. These changes will allow all Snyk customers to select a sustainable release cadence that works for them, and help optimize governance and compliance overhead for enterprise customers.
+
+Snyk CLI v.1.1291.0 follows three part MAJOR.MINOR.PATCH notation going forward, details for which are available in [product documentation](https://docs.snyk.io/snyk-cli/releases-and-channels-for-the-snyk-cli).
+
+We are introducing the following release channels:
+
+`preview` “pre-release” builds are deployed regularly up to multiple times a day and contain the latest changes.
+
+* Version Pattern: v{MAJOR}.{MINOR}.{PATCH}-preview
+* Cadence: Varying
+* Availability:
+
+```
+- https://static.snyk.io/cli/preview/
+- https://static.snyk.io/fips/cli/preview/
+```
+
+`rc` “release candidate” pre-releases are deployed at distinct points in time and contain a version of the CLI that is expected to be promoted to stable after additional testing
+
+* Version Pattern: v{MAJOR}.{MINOR}.{PATCH}-rc
+* Cadence: every 8 weeks, 2 weeks before a stable release _(hotfix releases possible)_
+* Availability:
+
+```
+- https://static.snyk.io/cli/rc/
+- https://static.snyk.io/fips/cli/rc/
+```
+
+`stable` stable builds are deployed at distinct points in time after being additionally tested and considered stable.
+
+* Version Pattern: v{MAJOR}.{MINOR}.{PATCH}
+* Cadence: every 8 weeks, end of an even month _(hotfix releases possible)_
+* Availability:
+
+```
+- https://github.com/snyk/cli/releases/
+- https://static.snyk.io/cli/stable/
+- https://static.snyk.io/fips/cli/stable/
+- npm
+- brew
+- scoop
+- Snyk-images
+```
+
+Existing Snyk CLI, and supported IDEs users are opted into the stable channel by default. You can find more information on how to opt into a release channel of your choice in our [product documentation](https://docs.snyk.io/snyk-cli/releases-and-channels-for-the-snyk-cli).
+
+***
+
 ## Snyk Code Improvements: New Sanitization Logic in Snyk Code
 
 April 26, 2024
