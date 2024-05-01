@@ -4,8 +4,21 @@
 		<link>https://snyk.gitbook.io/product-updates/</link>
 		<description>Snyk product updates.</description>
 		<language>en-us</language>
-		<pubDate>Tue, 30 Apr 2024 14:21:33 GMT</pubDate>
+		<pubDate>Wed, 01 May 2024 16:20:11 GMT</pubDate>
 		<ns0:link href="https://raw.githubusercontent.com/snyk/product-updates-docs/main/rss" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Snyk AppRisk Pro now available</title>
+			<pubDate>Wed, 01 May 2024 16:20:11 GMT</pubDate>
+			<link>https://snyk.gitbook.io/product-updates#snyk-apprisk-pro-now-available</link>
+			<guid>https://snyk.gitbook.io/product-updates#snyk-apprisk-pro-now-available_May_1_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We're thrilled to announce that Snyk AppRisk Pro is now available. Snyk AppRisk Pro expands on Snyk AppRisk&#8217;s core capabilities of application discovery &amp;amp; visibility, security coverage management, and risk-based prioritization with the following new capabilities:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Application Analytics&lt;/strong&gt; - a new data analytics capability offering AppSec teams a comprehensive overview of their AppSec program at a macro level, facilitating tracking, measurement, and reporting on program performance and risk KPIs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extended security coverage visibility&lt;/strong&gt; - new integrations with Nightfall AI and GitGuardian extend visibility of Snyk AppRisk to secret detection tools for managing security coverage on your repositories.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Risk based prioritization with runtime intelligence&lt;/strong&gt; - integrations with leading security and observability solutions, as well as a new, eBPF-based Snyk runtime sensor, provide runtime context to enable security teams to prioritize what to fix first and to assess any gaps in Snyk Container coverage vs. running containers. These runtime data sources are in a closed beta.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To learn more, please reference our product documentation and reach out to your account team with any questions.&lt;/p&gt;</description>
+		</item>
 		<item>
 			<title>Filter through your audit logs more efficiently with the new GA REST version of the audit logs API, and api.access is now opt-in</title>
 			<pubDate>Tue, 30 Apr 2024 14:21:33 GMT</pubDate>
