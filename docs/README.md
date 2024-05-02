@@ -12,6 +12,20 @@ Subscribe to the [RSS feed](https://raw.githubusercontent.com/snyk/product-updat
 
 ***
 
+## Snyk Code Improvements: Support for LLM Sources
+
+May 1, 2024
+
+**Improved**
+
+As adoption of LLM platforms like OpenAI and Gemini grows, so does the security risk associated with using them. We’ve added LLM sources to our ruleset which means the taint vulnerabilities supported by Snyk Code will now report when untrusted data from an LLM reaches a sensitive function. This greatly expands our coverage in the fast growing AI domain across all of our supported languages.
+
+We are committed to enabling our customers to securely leverage cutting edge AI tools and libraries. Our analysts will continue to research this topic in detail, and we will periodically publish this research in our blog. You can read the latest post on [code injection vulnerabilities in Python caused by Generative AI](https://snyk.io/blog/code-injection-vulnerabilities-caused-by-generative-ai/).
+
+If you have any questions, or want a detailed list of LLM libraries added, please reach out to your account teams.
+
+***
+
 ## Snyk AppRisk Pro now available
 
 May 1, 2024
