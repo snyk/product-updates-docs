@@ -4,8 +4,17 @@
 		<link>https://snyk.gitbook.io/product-updates/</link>
 		<description>Snyk product updates.</description>
 		<language>en-us</language>
-		<pubDate>Wed, 01 May 2024 16:20:11 GMT</pubDate>
+		<pubDate>Thu, 02 May 2024 12:10:34 GMT</pubDate>
 		<ns0:link href="https://raw.githubusercontent.com/snyk/product-updates-docs/main/rss" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Snyk Code Improvements: Support for LLM Sources</title>
+			<pubDate>Wed, 01 May 2024 12:10:34 GMT</pubDate>
+			<link>https://snyk.gitbook.io/product-updates#snyk-code-improvements-support-for-llm-sources</link>
+			<guid>https://snyk.gitbook.io/product-updates#snyk-code-improvements-support-for-llm-sources_May_1_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;Improved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;As adoption of LLM platforms like OpenAI and Gemini grows, so does the security risk associated with using them. We&#8217;ve added LLM sources to our ruleset which means the taint vulnerabilities supported by Snyk Code will now report when untrusted data from an LLM reaches a sensitive function. This greatly expands our coverage in the fast growing AI domain across all of our supported languages.&lt;/p&gt;
+&lt;p&gt;We are committed to enabling our customers to securely leverage cutting edge AI tools and libraries. Our analysts will continue to research this topic in detail, and we will periodically publish this research in our blog. You can read the latest post on &lt;a href="https://snyk.io/blog/code-injection-vulnerabilities-caused-by-generative-ai/"&gt;code injection vulnerabilities in Python caused by Generative AI&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you have any questions, or want a detailed list of LLM libraries added, please reach out to your account teams.&lt;/p&gt;</description>
+		</item>
 		<item>
 			<title>Snyk AppRisk Pro now available</title>
 			<pubDate>Wed, 01 May 2024 16:20:11 GMT</pubDate>
