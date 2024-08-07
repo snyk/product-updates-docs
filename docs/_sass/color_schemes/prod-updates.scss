@@ -1,0 +1,18 @@
+$color-scheme: light !default;
+$body-background-color: $white !default;
+$body-heading-color: #030328;
+$body-text-color: #383F76;
+$link-color: #145DEB;
+$nav-child-link-color: #0A26B8;
+$sidebar-color: #F6F4FA;
+$feedback-color: darken($sidebar-color, 3%) !default;
+
+.rss {
+    padding: 16px;
+}
+
+a.nav-list-link{
+    color: #0A26B8;
+}
+
+@import "./vendor/OneLightJekyll/syntax";
