@@ -49,7 +49,7 @@ defaults:
     values:
       layout: "default"
 
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 callouts:
   note:
     color: blue
