@@ -4,11 +4,11 @@
 		<link>https://snyk.gitbook.io/product-updates/</link>
 		<description>Snyk product updates.</description>
 		<language>en-us</language>
-		<pubDate>Fri, 09 Aug 2024 15:15:09 GMT</pubDate>
+		<pubDate>Fri, 09 Aug 2024 15:19:55 GMT</pubDate>
 		<ns0:link href="https://raw.githubusercontent.com/snyk/product-updates-docs/main/rss" rel="self" type="application/rss+xml" />
 		<item>
 			<title>End of Life Announcement: 4 week extension on planned removal of certain Snyk container images</title>
-			<pubDate>Fri, 09 Aug 2024 15:15:09 GMT</pubDate>
+			<pubDate>Fri, 09 Aug 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#end-of-life-announcement-4-week-extension-on-planned-removal-of-certain-snyk-container-images</link>
 			<guid>https://snyk.gitbook.io/product-updates#end-of-life-announcement-4-week-extension-on-planned-removal-of-certain-snyk-container-images_August_9_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;Deprecated&lt;/b&gt;&lt;/p&gt;&lt;p&gt;In May 2022 we announced the deprecation and end of life (EOL) plan for Snyk&#8217;s CLI container images (&lt;a href="https://hub.docker.com/r/snyk/snyk-cli"&gt;snyk/snyk-cli&lt;/a&gt;); following that, in May 2024 we announced the plan to EOL some additional Snyk container images (a subset of &lt;a href="https://hub.docker.com/r/snyk/snyk"&gt;snyk/snyk&lt;/a&gt; images) with out-of-date open source components. We are adjusting our timeframe for the EOL.&lt;/p&gt;
@@ -46,7 +46,7 @@
 		</item>
 		<item>
 			<title>Early Access of Reachability for JavaScript &amp; TypeScript</title>
-			<pubDate>Tue, 06 Aug 2024 15:15:09 GMT</pubDate>
+			<pubDate>Tue, 06 Aug 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#early-access-of-reachability-for-javascript-&amp;-typescript</link>
 			<guid>https://snyk.gitbook.io/product-updates#early-access-of-reachability-for-javascript-&amp;-typescript_August_6_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are pleased to announce that &lt;strong&gt;Reachability&lt;/strong&gt; &lt;strong&gt;for JavaScript &amp;amp; TypeScript&lt;/strong&gt; is now available in Early Access, bringing you another signal for evaluating risk across your &lt;strong&gt;npm&lt;/strong&gt; &lt;strong&gt;and&lt;/strong&gt; &lt;strong&gt;Yarn&lt;/strong&gt; projects in Snyk.&lt;/p&gt;
@@ -63,7 +63,7 @@
 		</item>
 		<item>
 			<title>Computed Fixability to replace for Auto Fixable column in Snyk Reports</title>
-			<pubDate>Wed, 31 Jul 2024 15:15:09 GMT</pubDate>
+			<pubDate>Wed, 31 Jul 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#computed-fixability-to-replace-for-auto-fixable-column-in-snyk-reports</link>
 			<guid>https://snyk.gitbook.io/product-updates#computed-fixability-to-replace-for-auto-fixable-column-in-snyk-reports_July_31_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;Improved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;The Computed Fixability field (which is currently used to display Fixable SCA issues on the Projects page) will replace the Auto Fixable column in Reports to ensure consistent user experience across Snyk interfaces.&lt;/p&gt;
@@ -78,7 +78,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>Expanded Snyk Pull Requests Coverage for All SCM Integrations</title>
-			<pubDate>Fri, 26 Jul 2024 15:15:09 GMT</pubDate>
+			<pubDate>Fri, 26 Jul 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#expanded-snyk-pull-requests-coverage-for-all-scm-integrations</link>
 			<guid>https://snyk.gitbook.io/product-updates#expanded-snyk-pull-requests-coverage-for-all-scm-integrations_July_26_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are excited to announce a significant enhancement to &lt;strong&gt;Snyk Pull Requests&lt;/strong&gt;, furthering our mission in broadening the availability of our features through multiple integrations.&lt;/p&gt;
@@ -97,7 +97,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>Final reminder on Snyk CLI Images and Snyk Images containing EoL software</title>
-			<pubDate>Thu, 25 Jul 2024 15:15:09 GMT</pubDate>
+			<pubDate>Thu, 25 Jul 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#final-reminder-on-snyk-cli-images-and-snyk-images-containing-eol-software</link>
 			<guid>https://snyk.gitbook.io/product-updates#final-reminder-on-snyk-cli-images-and-snyk-images-containing-eol-software_July_25_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;Deprecated&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This is the final reminder to Snyk customers using the following images which are &lt;strong&gt;scheduled to be removed on the 12th of August 2024&lt;/strong&gt;:&lt;/p&gt;
@@ -133,7 +133,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>The first cadence of Snyk's API end-of-life (EOL) program begins today</title>
-			<pubDate>Mon, 22 Jul 2024 15:15:09 GMT</pubDate>
+			<pubDate>Mon, 22 Jul 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#the-first-cadence-of-snyk's-api-end-of-life-eol-program-begins-today</link>
 			<guid>https://snyk.gitbook.io/product-updates#the-first-cadence-of-snyk's-api-end-of-life-eol-program-begins-today_July_22_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;As we mentioned in our communications on &lt;a href="https://updates.snyk.io/api-end-of-life-process-starting-july-22nd-2024-295308"&gt;June 20th&lt;/a&gt;, we have rolled out Snyk&#8217;s API end-of-life program. We encourage you to &lt;a href="https://docs.snyk.io/api-end-of-life-eol-process-and-migration-guides"&gt;read the documentation&lt;/a&gt; to understand what you should expect from the program, the &lt;a href="https://docs.snyk.io/api-end-of-life-eol-process-and-migration-guides/api-eol-endpoints-and-key-dates"&gt;endpoints that will be sunsetted, and the timelines and milestones (including dates for brownouts)&lt;/a&gt;.&lt;/p&gt;
@@ -144,7 +144,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>AppRisk - More Application Context Integration</title>
-			<pubDate>Thu, 18 Jul 2024 15:15:09 GMT</pubDate>
+			<pubDate>Thu, 18 Jul 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#apprisk-more-application-context-integration</link>
 			<guid>https://snyk.gitbook.io/product-updates#apprisk-more-application-context-integration_July_18_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We're pleased to announce 4 AppRisk Integration for AppRisk to bring application context. Integrate with the IDPs and service catalogs application containing information that will add extra application context (teams, owners, repo to application mapping, etc.) into AppRisk.&lt;/p&gt;
@@ -164,7 +164,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>AppRisk - Improved Edit Integration Profile</title>
-			<pubDate>Wed, 17 Jul 2024 15:15:09 GMT</pubDate>
+			<pubDate>Wed, 17 Jul 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#apprisk-improved-edit-integration-profile</link>
 			<guid>https://snyk.gitbook.io/product-updates#apprisk-improved-edit-integration-profile_July_17_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;Improved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We're pleased to share the improvement to the Snyk AppRisk - Edit Integration Profile experience.&lt;/p&gt;
@@ -177,7 +177,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>AppRisk Essentials - Improved Asset Inventory filtering</title>
-			<pubDate>Tue, 09 Jul 2024 15:15:09 GMT</pubDate>
+			<pubDate>Tue, 09 Jul 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#apprisk-essentials-improved-asset-inventory-filtering</link>
 			<guid>https://snyk.gitbook.io/product-updates#apprisk-essentials-improved-asset-inventory-filtering_July_9_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;Improved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We're pleased to share improvements to the &lt;strong&gt;Snyk AppRisk Asset Inventory&lt;/strong&gt; filtering experience. These changes are designed to improve the user experience and speed up workflows.&lt;/p&gt;
@@ -188,7 +188,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>Developer IDE and CLI usage report (GA)</title>
-			<pubDate>Fri, 28 Jun 2024 15:15:09 GMT</pubDate>
+			<pubDate>Fri, 28 Jun 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#developer-ide-and-cli-usage-report-ga</link>
 			<guid>https://snyk.gitbook.io/product-updates#developer-ide-and-cli-usage-report-ga_June_28_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are excited to announce the new "Developer IDE and CLI usage" report. This report shows the adoption of Snyk's testing in local development, through the IDE plugins, and in using the CLI locally.&lt;/p&gt;
@@ -200,7 +200,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>Mean Time To Resolve Accuracy in Reports</title>
-			<pubDate>Thu, 27 Jun 2024 15:15:09 GMT</pubDate>
+			<pubDate>Thu, 27 Jun 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#mean-time-to-resolve-accuracy-in-reports</link>
 			<guid>https://snyk.gitbook.io/product-updates#mean-time-to-resolve-accuracy-in-reports_June_27_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;Improved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We would like to notify on an improvement related to the issues' Mean Time To Resolve (MTTR) measurements.&lt;/p&gt;
@@ -210,7 +210,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>Announcing Snyk CLI v1.1292.0</title>
-			<pubDate>Tue, 25 Jun 2024 15:15:09 GMT</pubDate>
+			<pubDate>Tue, 25 Jun 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#announcing-snyk-cli-v1.1292.0</link>
 			<guid>https://snyk.gitbook.io/product-updates#announcing-snyk-cli-v1.1292.0_June_25_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;h3&gt;Hot fix update 27-June-24&lt;/h3&gt;
@@ -237,7 +237,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>API end-of-life process starting July 22nd 2024</title>
-			<pubDate>Thu, 20 Jun 2024 15:15:09 GMT</pubDate>
+			<pubDate>Thu, 20 Jun 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#api-end-of-life-process-starting-july-22nd-2024</link>
 			<guid>https://snyk.gitbook.io/product-updates#api-end-of-life-process-starting-july-22nd-2024_June_20_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;As part of our continual improvements at Snyk we are releasing new GA REST API endpoints to replace v1 API endpoints as well as beta and/or experimental REST API endpoints (collectively referred to as &#8220;Sunsetting Endpoints&#8221;). This helps us maintain the performance, stability, and security of the Snyk platform for all customers.&lt;/p&gt;
@@ -259,7 +259,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>DeepCode AI Fix - Now available in all tenants and JetBrains IDEs</title>
-			<pubDate>Thu, 20 Jun 2024 15:15:09 GMT</pubDate>
+			<pubDate>Thu, 20 Jun 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#deepcode-ai-fix-now-available-in-all-tenants-and-jetbrains-ides</link>
 			<guid>https://snyk.gitbook.io/product-updates#deepcode-ai-fix-now-available-in-all-tenants-and-jetbrains-ides_June_20_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are happy to announce that DeepCode AI Fix is now available in all tenant regions including EU and AU.&lt;/p&gt;
@@ -271,7 +271,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>EPSS &amp; JIRA Data in Snyk Reporting</title>
-			<pubDate>Wed, 19 Jun 2024 15:15:09 GMT</pubDate>
+			<pubDate>Wed, 19 Jun 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#epss-&amp;-jira-data-in-snyk-reporting</link>
 			<guid>https://snyk.gitbook.io/product-updates#epss-&amp;-jira-data-in-snyk-reporting_June_19_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;New data is now available in Snyk Reports!!&lt;/p&gt;
@@ -300,7 +300,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>Improved security prioritization with CVSS version 4.0</title>
-			<pubDate>Tue, 18 Jun 2024 15:15:09 GMT</pubDate>
+			<pubDate>Tue, 18 Jun 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#improved-security-prioritization-with-cvss-version-4.0</link>
 			<guid>https://snyk.gitbook.io/product-updates#improved-security-prioritization-with-cvss-version-4.0_June_18_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We&#8217;re happy to announce the introduction of the latest version of CVSS - version 4.0.&lt;/p&gt;
@@ -313,7 +313,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>Snyk Apps UI</title>
-			<pubDate>Mon, 10 Jun 2024 15:15:09 GMT</pubDate>
+			<pubDate>Mon, 10 Jun 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#snyk-apps-ui</link>
 			<guid>https://snyk.gitbook.io/product-updates#snyk-apps-ui_June_10_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://snyk.io/blog/snyk-apps-ga/"&gt;Snyk Apps&lt;/a&gt; are a way to help you integrate Snyk into your workflows, platforms, and tools. As you install more Snyk Apps, you&#8217;ll need to be able to observe and manage them easily. You can find out a number of key pieces of information about your Apps through the &lt;a href="https://apidocs.snyk.io/?version=2024-05-23#tag--Apps"&gt;API&lt;/a&gt; for your Snyk Apps including:&lt;/p&gt;
@@ -329,7 +329,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>Important update on Snyk Images: Obsolete software packages</title>
-			<pubDate>Fri, 07 Jun 2024 15:15:09 GMT</pubDate>
+			<pubDate>Fri, 07 Jun 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#important-update-on-snyk-images-obsolete-software-packages</link>
 			<guid>https://snyk.gitbook.io/product-updates#important-update-on-snyk-images-obsolete-software-packages_June_7_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;Deprecated&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This is a follow-up to the &lt;a href="https://updates.snyk.io/deprecation-notice-for-obsolete-snyk-images-292563"&gt;previous announcement&lt;/a&gt; about Snyk Images containing obsolete software.&lt;/p&gt;
@@ -341,7 +341,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>API Changelogs are now GA!</title>
-			<pubDate>Thu, 30 May 2024 15:15:09 GMT</pubDate>
+			<pubDate>Thu, 30 May 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#api-changelogs-are-now-ga!</link>
 			<guid>https://snyk.gitbook.io/product-updates#api-changelogs-are-now-ga!_May_30_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Snyk delivers a number of REST API improvements and changes regularly which can be incredibly beneficial. However, given the frequency of delivery, it can be difficult to keep track of these changes at a glance, which means that you might be missing out on key improvements or potentially breaking changes.&lt;/p&gt;
@@ -349,7 +349,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>Custom PR templates are now GA</title>
-			<pubDate>Mon, 20 May 2024 15:15:09 GMT</pubDate>
+			<pubDate>Mon, 20 May 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#custom-pr-templates-are-now-ga</link>
 			<guid>https://snyk.gitbook.io/product-updates#custom-pr-templates-are-now-ga_May_20_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New**, **Improved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are excited to announce the GA release of the Custom PR templates feature, bringing a stable and extensive solution for letting you customize the &lt;strong&gt;title, description&lt;/strong&gt; and &lt;strong&gt;commit message&lt;/strong&gt; for PRs being raised by Snyk.&lt;/p&gt;
@@ -363,7 +363,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>Snyk Code Improvements: BinaryFormatterUsage Support</title>
-			<pubDate>Thu, 16 May 2024 15:15:09 GMT</pubDate>
+			<pubDate>Thu, 16 May 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#snyk-code-improvements-binaryformatterusage-support</link>
 			<guid>https://snyk.gitbook.io/product-updates#snyk-code-improvements-binaryformatterusage-support_May_16_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are excited to announce improvements to our Deserialization of Untrusted Data (CWE-502) rule where we now report on every usage of the BinaryFormatter library. This update specifically addresses the use of the BinaryFormatter class in serialization processes in C# and VB.NET applications.&lt;/p&gt;
@@ -373,7 +373,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>PR Comments for Snyk PR checks are now in Closed Beta</title>
-			<pubDate>Thu, 16 May 2024 15:15:09 GMT</pubDate>
+			<pubDate>Thu, 16 May 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#pr-comments-for-snyk-pr-checks-are-now-in-closed-beta</link>
 			<guid>https://snyk.gitbook.io/product-updates#pr-comments-for-snyk-pr-checks-are-now-in-closed-beta_May_16_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New**, **Closed Beta&lt;/b&gt;&lt;/p&gt;&lt;p&gt;PR Comments for Snyk PR Checks are now available in Closed Beta. With this new feature enabled, customers using Snyk PR Checks will receive a new PR comment on each Pull Request that summarizes the most recent PR check results according to the type of check and severity of findings so that developers do not have to leave their SCM for more info, increasing developer productivity.&lt;/p&gt;
@@ -388,7 +388,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>AppRisk - Bring ServiceNow CMDB Data into AppRisk</title>
-			<pubDate>Wed, 15 May 2024 15:15:09 GMT</pubDate>
+			<pubDate>Wed, 15 May 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#apprisk-bring-servicenow-cmdb-data-into-apprisk</link>
 			<guid>https://snyk.gitbook.io/product-updates#apprisk-bring-servicenow-cmdb-data-into-apprisk_May_15_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We're pleased to share that Snyk AppRisk will allow customers to bring ServiceNow CMDB data into AppRisk as their application context information. You can now see the repo assets in AppRisk with the data from ServiceNow CMDB; this will make it easy for your AppSec team to manage their repo assets in AppRisk.&lt;/p&gt;
@@ -399,7 +399,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>Improved .NET scanning for Snyk Open Source: Early Access</title>
-			<pubDate>Tue, 14 May 2024 15:15:09 GMT</pubDate>
+			<pubDate>Tue, 14 May 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#improved-.net-scanning-for-snyk-open-source-early-access</link>
 			<guid>https://snyk.gitbook.io/product-updates#improved-.net-scanning-for-snyk-open-source-early-access_May_14_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;Improved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are excited to announce that major improvements to scanning NuGet .NET applications in Snyk Open Source are available in Early Access!&lt;/p&gt;
@@ -415,7 +415,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>Private Packages Upgrade PRs</title>
-			<pubDate>Mon, 13 May 2024 15:15:09 GMT</pubDate>
+			<pubDate>Mon, 13 May 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#private-packages-upgrade-prs</link>
 			<guid>https://snyk.gitbook.io/product-updates#private-packages-upgrade-prs_May_13_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New**, **Closed Beta&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are very excited to announce our recent Closed Beta feature: &lt;a href="https://docs.snyk.io/scan-with-snyk/pull-requests/snyk-fix-pull-or-merge-requests/upgrade-dependencies-with-automatic-prs/upgrade-private-dependencies-with-automatic-prs"&gt;the ability to receive Upgrade PRs for your private packages.&lt;/a&gt;&lt;/p&gt;
@@ -424,7 +424,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>Deprecation notice for obsolete Snyk Images</title>
-			<pubDate>Fri, 10 May 2024 15:15:09 GMT</pubDate>
+			<pubDate>Fri, 10 May 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#deprecation-notice-for-obsolete-snyk-images</link>
 			<guid>https://snyk.gitbook.io/product-updates#deprecation-notice-for-obsolete-snyk-images_May_10_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;Deprecated&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We would like to share a deprecation plan for obsolete Snyk Images with our customers.&lt;/p&gt;
@@ -441,7 +441,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>Deprecation notice for Snyk CLI Images</title>
-			<pubDate>Fri, 10 May 2024 15:15:09 GMT</pubDate>
+			<pubDate>Fri, 10 May 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#deprecation-notice-for-snyk-cli-images</link>
 			<guid>https://snyk.gitbook.io/product-updates#deprecation-notice-for-snyk-cli-images_May_10_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;Deprecated&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We would like to inform Snyk customers that Snyk CLI Images will be removed from &lt;a href="https://hub.docker.com/r/snyk/snyk-cli"&gt;Docker Hub&lt;/a&gt; on the 12th of August 2024. We advise customers to transition away from these images as a matter of urgency.&lt;/p&gt;
@@ -452,7 +452,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>Improved Import Logs and General Availability</title>
-			<pubDate>Wed, 08 May 2024 15:15:09 GMT</pubDate>
+			<pubDate>Wed, 08 May 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#improved-import-logs-and-general-availability</link>
 			<guid>https://snyk.gitbook.io/product-updates#improved-import-logs-and-general-availability_May_8_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;Improved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;After &lt;a href="https://updates.snyk.io/new-import-logs-ui-260506"&gt;previewing the experience for over a year&lt;/a&gt; we are pleased to announce the General Availability of our new and improved &lt;a href="https://docs.snyk.io/snyk-admin/snyk-projects/import-log"&gt;Import Logs page&lt;/a&gt;.&lt;/p&gt;
@@ -466,7 +466,7 @@ Please reach out to your account team for any questions, for further details abo
 		</item>
 		<item>
 			<title>Introducing SLA Management &amp; Featured Zero-Day Reports</title>
-			<pubDate>Wed, 08 May 2024 15:15:09 GMT</pubDate>
+			<pubDate>Wed, 08 May 2024 15:19:55 GMT</pubDate>
 			<link>https://snyk.gitbook.io/product-updates#introducing-sla-management-&amp;-featured-zero-day-reports</link>
 			<guid>https://snyk.gitbook.io/product-updates#introducing-sla-management-&amp;-featured-zero-day-reports_May_8_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are thrilled to announce the addition of two new insightful reports to our growing list of reporting features: the &lt;strong&gt;SLA Management&lt;/strong&gt; report and the &lt;strong&gt;Featured Zero-Day&lt;/strong&gt; report.&lt;/p&gt;
