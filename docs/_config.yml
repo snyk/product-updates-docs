@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Keep up to date with new features, feature enhancements, and fixes for all of
   Snyk's product offerings. Contact support if you require assistance.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://snyk.github.io/product-updates-docs" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Exclude from processing.
 # The following items will not be processed, by default.

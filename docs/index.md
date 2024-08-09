@@ -2,6 +2,51 @@
 
 ***
 
+## End of Life Announcement: 4 week extension on planned removal of certain Snyk container images
+
+August 9, 2024
+
+**Deprecated**
+
+In May 2022 we announced the deprecation and end of life (EOL) plan for Snyk’s CLI container images ([snyk/snyk-cli](https://hub.docker.com/r/snyk/snyk-cli)); following that, in May 2024 we announced the plan to EOL some additional Snyk container images (a subset of [snyk/snyk](https://hub.docker.com/r/snyk/snyk) images) with out-of-date open source components. We are adjusting our timeframe for the EOL.
+
+Originally set for 12-Aug-2024, we are now extending the date to 09-Sep-2024. This change ensures you have ample time for a smooth transition. If you do not use Snyk’s container images as part of your testing toolchain, you are not affected by this EOL notice.
+
+### Here is what you need to know:
+
+**Impacted Images:**
+
+* [Snyk CLI Images which were deprecated in 2022](https://hub.docker.com/r/snyk/snyk-cli)
+* [A subset of Snyk Images containing EoL software](https://github.com/snyk/snyk-images?tab=readme-ov-file#vendor-unsupported-base-images)
+
+**Immediate Action required:** Snyk customers using any of the listed images should start transitioning immediately.
+
+**Migration Guides:** Snyk has documented the following migration guides to help customers take necessary steps.
+
+* [CircleCI migration guide](https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-ci-cd-integrations/eol-policy-snyk-images/snyk-images-guides-to-migration/circleci-migration): For customers using the `scan-iac` job will need to switch to using `snyk/scan` with the `iac test` command.
+* [Bitbucket migration guide](https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-ci-cd-integrations/eol-policy-snyk-images/snyk-images-guides-to-migration/bitbucket-pipelines-migration): For customers using `snyk-scan`.
+* [GitHub Actions migration guide](https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-ci-cd-integrations/eol-policy-snyk-images/snyk-images-guides-to-migration/github-actions-migration): For customers using actions containing Python 3.6, Python 3.7 or `scala/sbt`.
+* [Instructions](https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-ci-cd-integrations/user-defined-custom-images-for-cli) for creating custom images to suit your needs
+
+You can find **previous product announcements** about these changes inline:
+
+* [Final reminder on Snyk CLI Images and Snyk Images containing EoL software](https://updates.snyk.io/final-reminder-on-snyk-cli-images-and-snyk-images-containing-eol-software-297657)
+* [Important update on Snyk Images: Obsolete software packages](https://headwayapp.co/snyk-io-updates/important-update-on-snyk-images-obsolete-software-packages-294548)
+* [Deprecation notice for Snyk CLI Images](https://headwayapp.co/snyk-io-updates/deprecation-notice-for-snyk-cli-images-292562)
+* [Deprecation notice for obsolete Snyk Images](https://headwayapp.co/snyk-io-updates/deprecation-notice-for-obsolete-snyk-images-292563)
+* [Decoupling Snyk Scan from Snyk CLI Docker Images](https://updates.snyk.io/decoupling-snyk-scan-from-snyk-cli-docker-images-277502)
+* [Decoupling Snyk Orb from Snyk CLI Docker Images](https://updates.snyk.io/decoupling-snyk-orb-from-snyk-cli-docker-images-277506)
+
+**Additional resources:**
+
+* [EoL Policy](https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-ci-cd-integrations/eol-policy-snyk-images) on images provided by Snyk Images build tool chain
+* [List of Snyk Images](https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-ci-cd-integrations/eol-policy-snyk-images/images-no-longer-supported-by-snyk) scheduled to be removed on 12th August 2024
+* [List of Snyk CLI Images](https://hub.docker.com/r/snyk/snyk-cli/tags) scheduled to be removed on 12th August 2024
+
+If you have any questions or need help please contact Snyk Support or your Technical Success Manager at the earliest.
+
+***
+
 ## Early Access of Reachability for JavaScript & TypeScript
 
 August 6, 2024
