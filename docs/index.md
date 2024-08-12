@@ -1,4 +1,11 @@
----\nlayout: default\ntitle: Product Updates\nnav_order: 1\nhas_children: true\n---\nSubscribe to the [RSS feed](./rss) so you don't miss any updates.\n# Snyk Product Updates
+---
+layout: default
+title: Product Updates
+nav_order: 1
+has_children: true
+---
+Subscribe to the [RSS feed](./rss) so you don't miss any updates.
+# Snyk Product Updates
 
 ***
 
