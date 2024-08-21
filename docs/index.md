@@ -9,6 +9,24 @@ Subscribe to the [RSS feed](./rss) so you don't miss any updates.
 
 ***
 
+## Announcing general availability of Workspaces, and improved SCM integration accuracy and reliability
+
+August 19, 2024
+
+**New**
+
+We are excited to announce the General Availability of [**Workspaces**](https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-scm-integrations/introduction-to-git-repository-integrations/workspaces-for-scm-integrations). Following a successful open beta [announced previously](https://updates.snyk.io/open-beta-availability-of-git-repository-cloning-275373), this enhancement significantly improves the accuracy and reliability of Snyk’s SCM integration results, especially for large-scale enterprise environments. This capability also supports additional functionality and improvements we have planned in the future.
+
+To maximize the benefits of this feature and provide a consistent user experience, **Snyk strongly recommends enabling Workspaces** across all your Snyk Organizations. To facilitate this, over the coming days we will be incrementally rolling out the ability to manage Workspaces at both the Snyk Organization _and_ Snyk Group level.
+
+Going forwards, Workspaces will be enabled by default for all new Snyk Organizations. Existing Organizations will be gradually transitioned to this new approach in the coming weeks. To request a deferral from the default settings, please opt-out [**here**](https://forms.gle/qGg43DYyAHBHGp7T7) by September 20th, 2024.
+
+For detailed information on Workspaces and its security measures, more details can be found in [the docs](https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-scm-integrations/introduction-to-git-repository-integrations/workspaces-for-scm-integrations), including information on [how Workspaces supports more _reliable_ results](https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-scm-integrations/introduction-to-git-repository-integrations/workspaces-for-scm-integrations#how-workspaces-supports-more-reliable-results), [how Workspaces supports more _accurate_ results](https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-scm-integrations/introduction-to-git-repository-integrations/workspaces-for-scm-integrations#how-workspaces-supports-more-accurate-results), and [safeguards Snyk puts in place to ensure data is secure](https://docs.snyk.io/working-with-snyk/how-snyk-handles-your-data#safeguards-snyk-puts-in-place-to-ensure-data-is-secure).
+
+If you have any questions or require further assistance, please [contact Support](https://support.snyk.io/hc/en-us), or your dedicated Snyk account representative.
+
+***
+
 ## End of Life Announcement: 4 week extension on planned removal of certain Snyk container images
 
 August 9, 2024
@@ -162,7 +180,7 @@ If you have any questions regarding this planned removal, please contact Snyk Su
 
 ***
 
-## The first cadence of Snyk's API end-of-life (EOL) program begins today
+## The first cadence of the Snyk API end-of-life (EOL) program begins today
 
 July 22, 2024
 
@@ -514,7 +532,7 @@ May 16, 2024
 
 PR Comments for Snyk PR Checks are now available in Closed Beta. With this new feature enabled, customers using Snyk PR Checks will receive a new PR comment on each Pull Request that summarizes the most recent PR check results according to the type of check and severity of findings so that developers do not have to leave their SCM for more info, increasing developer productivity.
 
-<figure><img src="assets/pr_comments.png" alt=" " width="563"><figcaption></figcaption></figure>
+<figure><img src="assets/pr_comments.png" alt="" width="563"><figcaption></figcaption></figure>
 
 With this first phase, PR Comments will be available to the following SCM integrations:
 
@@ -1030,9 +1048,7 @@ The General Availability version delivers:
 * All API functionality is now also available in the browser GUI, allowing users to define custom versioning schemas from the project’s settings.
 * Removed feature flag - by default, Custom Base Image Recommendations settings will be shown in the project’s settings.
 
-{: .note }
-**Please note** that this feature is only available for customers on the Snyk **Enterprise** plan. More details on the feature are available in the [public](https://docs.snyk.io/products/snyk-container/getting-around-the-snyk-container-ui/custom-base-image-recommendations) and [API](https://apidocs.snyk.io/?version=2024-01-23#tag--Custom-Base-Images) documentation.
-
+{: .note } **Please note** that this feature is only available for customers on the Snyk **Enterprise** plan. More details on the feature are available in the [public](https://docs.snyk.io/products/snyk-container/getting-around-the-snyk-container-ui/custom-base-image-recommendations) and [API](https://apidocs.snyk.io/?version=2024-01-23#tag--Custom-Base-Images) documentation.
 
 ***
 

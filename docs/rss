@@ -4,8 +4,30 @@
 		<link>https://snyk.github.io/product-updates-docs/</link>
 		<description>Snyk product updates.</description>
 		<language>en-us</language>
-		<pubDate>Mon, 12 Aug 2024 18:02:00 GMT</pubDate>
+		<pubDate>Wed, 21 Aug 2024 17:13:16 GMT</pubDate>
 		<ns0:link href="https://snyk.github.io/product-updates-docs/rss" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Announcing general availability of Workspaces, and improved SCM integration accuracy and reliability</title>
+			<pubDate>Mon, 19 Aug 2024 17:13:16 GMT</pubDate>
+			<link>https://snyk.github.io/product-updates-docs#announcing-general-availability-of-workspaces,-and-improved-scm-integration-accuracy-and-reliability</link>
+			<guid>https://snyk.github.io/product-updates-docs#announcing-general-availability-of-workspaces,-and-improved-scm-integration-accuracy-and-reliability_August_19_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are excited to announce the General Availability of &lt;a href="https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-scm-integrations/introduction-to-git-repository-integrations/workspaces-for-scm-integrations"&gt;&lt;strong&gt;Workspaces&lt;/strong&gt;&lt;/a&gt;. Following a successful open beta &lt;a href="https://updates.snyk.io/open-beta-availability-of-git-repository-cloning-275373"&gt;announced previously&lt;/a&gt;, this enhancement significantly improves the accuracy and reliability of Snyk&#8217;s SCM integration results, especially for large-scale enterprise environments. This capability also supports additional functionality and improvements we have planned in the future.&lt;/p&gt;
+&lt;p&gt;To maximize the benefits of this feature and provide a consistent user experience, &lt;strong&gt;Snyk strongly recommends enabling Workspaces&lt;/strong&gt; across all your Snyk Organizations. To facilitate this, over the coming days we will be incrementally rolling out the ability to manage Workspaces at both the Snyk Organization &lt;em&gt;and&lt;/em&gt; Snyk Group level.&lt;/p&gt;
+&lt;p&gt;Going forwards, Workspaces will be enabled by default for all new Snyk Organizations. Existing Organizations will be gradually transitioned to this new approach in the coming weeks. To request a deferral from the default settings, please opt-out &lt;a href="https://forms.gle/qGg43DYyAHBHGp7T7"&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt; by September 20th, 2024.&lt;/p&gt;
+&lt;p&gt;For detailed information on Workspaces and its security measures, more details can be found in &lt;a href="https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-scm-integrations/introduction-to-git-repository-integrations/workspaces-for-scm-integrations"&gt;the docs&lt;/a&gt;, including information on &lt;a href="https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-scm-integrations/introduction-to-git-repository-integrations/workspaces-for-scm-integrations#how-workspaces-supports-more-reliable-results"&gt;how Workspaces supports more &lt;em&gt;reliable&lt;/em&gt; results&lt;/a&gt;, &lt;a href="https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-scm-integrations/introduction-to-git-repository-integrations/workspaces-for-scm-integrations#how-workspaces-supports-more-accurate-results"&gt;how Workspaces supports more &lt;em&gt;accurate&lt;/em&gt; results&lt;/a&gt;, and &lt;a href="https://docs.snyk.io/working-with-snyk/how-snyk-handles-your-data#safeguards-snyk-puts-in-place-to-ensure-data-is-secure"&gt;safeguards Snyk puts in place to ensure data is secure&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you have any questions or require further assistance, please &lt;a href="https://support.snyk.io/hc/en-us"&gt;contact Support&lt;/a&gt;, or your dedicated Snyk account representative.&lt;/p&gt;</description>
+		</item>
+		<item>
+			<title>The first cadence of the Snyk API end-of-life (EOL) program begins today</title>
+			<pubDate>Mon, 22 Jul 2024 17:13:16 GMT</pubDate>
+			<link>https://snyk.github.io/product-updates-docs#the-first-cadence-of-the-snyk-api-end-of-life-eol-program-begins-today</link>
+			<guid>https://snyk.github.io/product-updates-docs#the-first-cadence-of-the-snyk-api-end-of-life-eol-program-begins-today_July_22_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;As we mentioned in our communications on &lt;a href="https://updates.snyk.io/api-end-of-life-process-starting-july-22nd-2024-295308"&gt;June 20th&lt;/a&gt;, we have rolled out Snyk&#8217;s API end-of-life program. We encourage you to &lt;a href="https://docs.snyk.io/api-end-of-life-eol-process-and-migration-guides"&gt;read the documentation&lt;/a&gt; to understand what you should expect from the program, the &lt;a href="https://docs.snyk.io/api-end-of-life-eol-process-and-migration-guides/api-eol-endpoints-and-key-dates"&gt;endpoints that will be sunsetted, and the timelines and milestones (including dates for brownouts)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Today we&#8217;re announcing that &lt;a href="https://docs.snyk.io/api-end-of-life-eol-process-and-migration-guides/api-eol-endpoints-and-key-dates"&gt;the endpoints that have met the criteria for end-of-life&lt;/a&gt; will now be marked as deprecated, and the timeline for end-of-life has started. You can find the end-of-life dates and brownouts associated with the specific endpoints &lt;a href="https://docs.snyk.io/api-end-of-life-eol-process-and-migration-guides/api-eol-endpoints-and-key-dates"&gt;in the documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;What you can expect from July 22nd is to see the documentation and endpoint responses state that the selected endpoints are being sunsetted (or the documentation will be removed completely); selected v1 endpoints will be fully removed on January 22nd 2025, and selected experimental endpoints will be fully removed on October 22nd 2024.&lt;/p&gt;
+&lt;p&gt;The endpoints will remain functional during the end-of-life timeline for existing customers but new customers will not be able to integrate with the endpoints. The endpoints will no longer be functional on January 22nd 2025 for v1 endpoints, and October 22nd 2024 experimental endpoints.&lt;/p&gt;
+&lt;p&gt;In addition, there will be periodic brownouts occurring for each of the selected endpoints, and you can find the dates, times, and durations of these brownouts in the &lt;a href="https://docs.snyk.io/api-end-of-life-eol-process-and-migration-guides/api-eol-endpoints-and-key-dates"&gt;documentation&lt;/a&gt;. Snyk will also share an announcement 2 weeks before a brownout occurs.&lt;/p&gt;</description>
+		</item>
 		<item>
 			<title>End of Life Announcement: 4 week extension on planned removal of certain Snyk container images</title>
 			<pubDate>Fri, 09 Aug 2024 18:02:00 GMT</pubDate>
@@ -377,7 +399,7 @@ Please reach out to your account team for any questions, for further details abo
 			<link>https://snyk.github.io/product-updates-docs#pr-comments-for-snyk-pr-checks-are-now-in-closed-beta</link>
 			<guid>https://snyk.github.io/product-updates-docs#pr-comments-for-snyk-pr-checks-are-now-in-closed-beta_May_16_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New**, **Closed Beta&lt;/b&gt;&lt;/p&gt;&lt;p&gt;PR Comments for Snyk PR Checks are now available in Closed Beta. With this new feature enabled, customers using Snyk PR Checks will receive a new PR comment on each Pull Request that summarizes the most recent PR check results according to the type of check and severity of findings so that developers do not have to leave their SCM for more info, increasing developer productivity.&lt;/p&gt;
-&lt;figure&gt;&lt;img src="assets/pr_comments.png" alt=" " width="563"&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src="assets/pr_comments.png" alt="" width="563"&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;With this first phase, PR Comments will be available to the following SCM integrations:&lt;/p&gt;
 &lt;ul&gt;
@@ -736,8 +758,7 @@ snyk sbom test --experimental --file=bom.cdx.json&lt;/code&gt;&lt;/p&gt;
 &lt;li&gt;All API functionality is now also available in the browser GUI, allowing users to define custom versioning schemas from the project&#8217;s settings.&lt;/li&gt;
 &lt;li&gt;Removed feature flag - by default, Custom Base Image Recommendations settings will be shown in the project&#8217;s settings.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;{: .note }
-&lt;strong&gt;Please note&lt;/strong&gt; that this feature is only available for customers on the Snyk &lt;strong&gt;Enterprise&lt;/strong&gt; plan. More details on the feature are available in the &lt;a href="https://docs.snyk.io/products/snyk-container/getting-around-the-snyk-container-ui/custom-base-image-recommendations"&gt;public&lt;/a&gt; and &lt;a href="https://apidocs.snyk.io/?version=2024-01-23#tag--Custom-Base-Images"&gt;API&lt;/a&gt; documentation.&lt;/p&gt;</description>
+&lt;p&gt;{: .note } &lt;strong&gt;Please note&lt;/strong&gt; that this feature is only available for customers on the Snyk &lt;strong&gt;Enterprise&lt;/strong&gt; plan. More details on the feature are available in the &lt;a href="https://docs.snyk.io/products/snyk-container/getting-around-the-snyk-container-ui/custom-base-image-recommendations"&gt;public&lt;/a&gt; and &lt;a href="https://apidocs.snyk.io/?version=2024-01-23#tag--Custom-Base-Images"&gt;API&lt;/a&gt; documentation.&lt;/p&gt;</description>
 		</item>
 		<item>
 			<title>Snyk AppRisk - Policy Templates</title>
