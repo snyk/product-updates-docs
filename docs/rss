@@ -4,8 +4,18 @@
 		<link>https://snyk.github.io/product-updates-docs/</link>
 		<description>Snyk product updates.</description>
 		<language>en-us</language>
-		<pubDate>Thu, 22 Aug 2024 13:23:42 GMT</pubDate>
+		<pubDate>Thu, 22 Aug 2024 13:26:12 GMT</pubDate>
 		<ns0:link href="https://snyk.github.io/product-updates-docs/rss" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Coming soon - Simplified Snyk Code taint flow view</title>
+			<pubDate>Thu, 22 Aug 2024 13:26:12 GMT</pubDate>
+			<link>https://snyk.github.io/product-updates-docs#coming-soon-simplified-snyk-code-taint-flow-view</link>
+			<guid>https://snyk.github.io/product-updates-docs#coming-soon-simplified-snyk-code-taint-flow-view_August_22_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;Improved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;When viewing a &#8220;taint vulnerability&#8221; in Snyk Code, we provide a visualisation of the dataflow between the source and the sink. This helps you to get an understanding of the reported vulnerability, decide whether it a true positive and work on a fix.&lt;/p&gt;
+&lt;p&gt;In some cases, dataflow steps that are unnecessary for understanding the reported vulnerability can be added, which can make it harder to understand and mitigate the reported vulnerability.&lt;/p&gt;
+&lt;p&gt;Soon we will be rolling out an improvement which simplifies the dataflow view in the web app by showing only the steps necessary to understand taint flow vulnerabilities.&lt;/p&gt;
+&lt;p&gt;This UI improvement will become available to all Snyk Code users on &lt;strong&gt;Wednesday August 28th&lt;/strong&gt;, and no other action is required.&lt;/p&gt;</description>
+		</item>
 		<item>
 			<title>Introducing Quick Filters for Asset Inventory</title>
 			<pubDate>Thu, 22 Aug 2024 13:23:42 GMT</pubDate>
