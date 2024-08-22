@@ -8,6 +8,56 @@ has_children: true
 
 ***
 
+## Coming soon: Severity change annotations in IDEs for OSS findings
+
+August 22, 2024
+
+**Improved**
+
+OSS Security policies can be configured to change the severity of matched vulnerabilities. (See [Snyk documentation](https://docs.snyk.io/manage-risk/policies/security-policies/security-policy-actions)).
+
+Till now, this change was not visible in IDE plugins.
+
+With the new release, IDE plugins will show that "severity was changed to…" and mention the policy name that affected it.
+
+This UI improvement is included in the upcoming release of plugins for **Visual Studio Code**, **IntelliJ IDE**, and **Eclipse** on Thursday, August 29th.
+
+***
+
+## Multi-Licensing Severity Logic update
+
+August 22, 2024
+
+**Improved**
+
+We are happy to announce an improvement to Snyk's license scanning capabilities.
+
+Currently, Snyk displays the issue with the lowest severity as the default for multi and dual licenses with OR and AND conditions. To enhance accuracy and ensure that higher severity licenses are appropriately flagged, we will be updating our default Snyk policy logic.
+
+Starting **November 19th**, Snyk will display the issue with the **highest severity as the default in cases of multi-licensing**. This change will help you better identify and address potential risks in your open-source projects.
+
+Please note that this default Snyk policy for multi and dual licenses is applied to all organizations or projects with a license policy.
+
+We strongly recommend that you tailor a customized license policy that fits your company’s compliance, legal requirements, and needs. Snyk does not offer legal advice regarding this default license policy.
+
+Please see [open-source license compliance](https://docs.snyk.io/scan-using-snyk/snyk-open-source/scan-open-source-libraries-and-licenses/open-source-license-compliance) documentation for more information.
+
+***
+
+## Improved accuracy and speed in Snyk Code
+
+August 22, 2024
+
+**Improved**
+
+As part of ongoing efforts to make the Snyk Code engine faster, easier to use, and more accurate—we’re introducing an optimization that will improve analysis speed by 120%.
+
+In addition to providing you faster feedback, we're also solving a longstanding precision issue that we know leads to false positives in production today. On average, you will see a 5% reduction in false positives for C++ and minor improvements to C#.
+
+This change will be released on **September 4th, 2024**. Once released, no action is necessary—you'll begin to observe improvements in your tests going forward.
+
+***
+
 ## Coming soon - Simplified Snyk Code taint flow view
 
 August 22, 2024
