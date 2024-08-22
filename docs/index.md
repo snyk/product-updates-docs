@@ -4,8 +4,23 @@ title: Product Updates
 nav_order: 1
 has_children: true
 ---
-Subscribe to the [RSS feed](./rss) so you don't miss any updates.
 # Snyk Product Updates
+
+***
+
+## Introducing Quick Filters for Asset Inventory
+
+August 22, 2024
+
+**New**
+
+We are pleased to introduce the new Quick Filters feature in the Asset Inventory. This feature is designed to streamline your filtering experience and speed up workflows, helping you focus on what matters most.
+
+### What is this feature about?
+
+With Quick Filters, users can now quickly narrow down their Asset Inventory using predefined filters, helping users identify the most critical assets and eliminating the need to manually set multiple criteria.
+
+After selecting a Quick Filter, the filters are automatically populated with the relevant attributes and values. Users can then apply the filters directly or further customize them to meet their specific needs. For those who prefer a manual approach, the option to set filters manually, as before, remains available.
 
 ***
 
