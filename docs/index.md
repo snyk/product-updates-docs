@@ -8,6 +8,22 @@ has_children: true
 
 ***
 
+## Coming soon - Simplified Snyk Code taint flow view
+
+August 22, 2024
+
+**Improved**
+
+When viewing a “taint vulnerability” in Snyk Code, we provide a visualisation of the dataflow between the source and the sink. This helps you to get an understanding of the reported vulnerability, decide whether it a true positive and work on a fix.
+
+In some cases, dataflow steps that are unnecessary for understanding the reported vulnerability can be added, which can make it harder to understand and mitigate the reported vulnerability.
+
+Soon we will be rolling out an improvement which simplifies the dataflow view in the web app by showing only the steps necessary to understand taint flow vulnerabilities.
+
+This UI improvement will become available to all Snyk Code users on **Wednesday August 28th**, and no other action is required.
+
+***
+
 ## Introducing Quick Filters for Asset Inventory
 
 August 22, 2024
