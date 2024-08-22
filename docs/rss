@@ -4,8 +4,18 @@
 		<link>https://snyk.github.io/product-updates-docs/</link>
 		<description>Snyk product updates.</description>
 		<language>en-us</language>
-		<pubDate>Wed, 21 Aug 2024 17:13:16 GMT</pubDate>
+		<pubDate>Thu, 22 Aug 2024 13:23:42 GMT</pubDate>
 		<ns0:link href="https://snyk.github.io/product-updates-docs/rss" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Introducing Quick Filters for Asset Inventory</title>
+			<pubDate>Thu, 22 Aug 2024 13:23:42 GMT</pubDate>
+			<link>https://snyk.github.io/product-updates-docs#introducing-quick-filters-for-asset-inventory</link>
+			<guid>https://snyk.github.io/product-updates-docs#introducing-quick-filters-for-asset-inventory_August_22_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are pleased to introduce the new Quick Filters feature in the Asset Inventory. This feature is designed to streamline your filtering experience and speed up workflows, helping you focus on what matters most.&lt;/p&gt;
+&lt;h3&gt;What is this feature about?&lt;/h3&gt;
+&lt;p&gt;With Quick Filters, users can now quickly narrow down their Asset Inventory using predefined filters, helping users identify the most critical assets and eliminating the need to manually set multiple criteria.&lt;/p&gt;
+&lt;p&gt;After selecting a Quick Filter, the filters are automatically populated with the relevant attributes and values. Users can then apply the filters directly or further customize them to meet their specific needs. For those who prefer a manual approach, the option to set filters manually, as before, remains available.&lt;/p&gt;</description>
+		</item>
 		<item>
 			<title>Announcing general availability of Workspaces, and improved SCM integration accuracy and reliability</title>
 			<pubDate>Mon, 19 Aug 2024 17:13:16 GMT</pubDate>
@@ -16,17 +26,6 @@
 &lt;p&gt;Going forwards, Workspaces will be enabled by default for all new Snyk Organizations. Existing Organizations will be gradually transitioned to this new approach in the coming weeks. To request a deferral from the default settings, please opt-out &lt;a href="https://forms.gle/qGg43DYyAHBHGp7T7"&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt; by September 20th, 2024.&lt;/p&gt;
 &lt;p&gt;For detailed information on Workspaces and its security measures, more details can be found in &lt;a href="https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-scm-integrations/introduction-to-git-repository-integrations/workspaces-for-scm-integrations"&gt;the docs&lt;/a&gt;, including information on &lt;a href="https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-scm-integrations/introduction-to-git-repository-integrations/workspaces-for-scm-integrations#how-workspaces-supports-more-reliable-results"&gt;how Workspaces supports more &lt;em&gt;reliable&lt;/em&gt; results&lt;/a&gt;, &lt;a href="https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-scm-integrations/introduction-to-git-repository-integrations/workspaces-for-scm-integrations#how-workspaces-supports-more-accurate-results"&gt;how Workspaces supports more &lt;em&gt;accurate&lt;/em&gt; results&lt;/a&gt;, and &lt;a href="https://docs.snyk.io/working-with-snyk/how-snyk-handles-your-data#safeguards-snyk-puts-in-place-to-ensure-data-is-secure"&gt;safeguards Snyk puts in place to ensure data is secure&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;If you have any questions or require further assistance, please &lt;a href="https://support.snyk.io/hc/en-us"&gt;contact Support&lt;/a&gt;, or your dedicated Snyk account representative.&lt;/p&gt;</description>
-		</item>
-		<item>
-			<title>The first cadence of the Snyk API end-of-life (EOL) program begins today</title>
-			<pubDate>Mon, 22 Jul 2024 17:13:16 GMT</pubDate>
-			<link>https://snyk.github.io/product-updates-docs#the-first-cadence-of-the-snyk-api-end-of-life-eol-program-begins-today</link>
-			<guid>https://snyk.github.io/product-updates-docs#the-first-cadence-of-the-snyk-api-end-of-life-eol-program-begins-today_July_22_2024</guid>
-			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;As we mentioned in our communications on &lt;a href="https://updates.snyk.io/api-end-of-life-process-starting-july-22nd-2024-295308"&gt;June 20th&lt;/a&gt;, we have rolled out Snyk&#8217;s API end-of-life program. We encourage you to &lt;a href="https://docs.snyk.io/api-end-of-life-eol-process-and-migration-guides"&gt;read the documentation&lt;/a&gt; to understand what you should expect from the program, the &lt;a href="https://docs.snyk.io/api-end-of-life-eol-process-and-migration-guides/api-eol-endpoints-and-key-dates"&gt;endpoints that will be sunsetted, and the timelines and milestones (including dates for brownouts)&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Today we&#8217;re announcing that &lt;a href="https://docs.snyk.io/api-end-of-life-eol-process-and-migration-guides/api-eol-endpoints-and-key-dates"&gt;the endpoints that have met the criteria for end-of-life&lt;/a&gt; will now be marked as deprecated, and the timeline for end-of-life has started. You can find the end-of-life dates and brownouts associated with the specific endpoints &lt;a href="https://docs.snyk.io/api-end-of-life-eol-process-and-migration-guides/api-eol-endpoints-and-key-dates"&gt;in the documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;What you can expect from July 22nd is to see the documentation and endpoint responses state that the selected endpoints are being sunsetted (or the documentation will be removed completely); selected v1 endpoints will be fully removed on January 22nd 2025, and selected experimental endpoints will be fully removed on October 22nd 2024.&lt;/p&gt;
-&lt;p&gt;The endpoints will remain functional during the end-of-life timeline for existing customers but new customers will not be able to integrate with the endpoints. The endpoints will no longer be functional on January 22nd 2025 for v1 endpoints, and October 22nd 2024 experimental endpoints.&lt;/p&gt;
-&lt;p&gt;In addition, there will be periodic brownouts occurring for each of the selected endpoints, and you can find the dates, times, and durations of these brownouts in the &lt;a href="https://docs.snyk.io/api-end-of-life-eol-process-and-migration-guides/api-eol-endpoints-and-key-dates"&gt;documentation&lt;/a&gt;. Snyk will also share an announcement 2 weeks before a brownout occurs.&lt;/p&gt;</description>
 		</item>
 		<item>
 			<title>End of Life Announcement: 4 week extension on planned removal of certain Snyk container images</title>
@@ -154,10 +153,10 @@ Please reach out to your account team for any questions, for further details abo
 &lt;p&gt;If you have any questions regarding this planned removal, please contact Snyk Support.&lt;/p&gt;</description>
 		</item>
 		<item>
-			<title>The first cadence of Snyk's API end-of-life (EOL) program begins today</title>
-			<pubDate>Mon, 22 Jul 2024 18:02:00 GMT</pubDate>
-			<link>https://snyk.github.io/product-updates-docs#the-first-cadence-of-snyk's-api-end-of-life-eol-program-begins-today</link>
-			<guid>https://snyk.github.io/product-updates-docs#the-first-cadence-of-snyk's-api-end-of-life-eol-program-begins-today_July_22_2024</guid>
+			<title>The first cadence of the Snyk API end-of-life (EOL) program begins today</title>
+			<pubDate>Mon, 22 Jul 2024 17:13:16 GMT</pubDate>
+			<link>https://snyk.github.io/product-updates-docs#the-first-cadence-of-the-snyk-api-end-of-life-eol-program-begins-today</link>
+			<guid>https://snyk.github.io/product-updates-docs#the-first-cadence-of-the-snyk-api-end-of-life-eol-program-begins-today_July_22_2024</guid>
 			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;As we mentioned in our communications on &lt;a href="https://updates.snyk.io/api-end-of-life-process-starting-july-22nd-2024-295308"&gt;June 20th&lt;/a&gt;, we have rolled out Snyk&#8217;s API end-of-life program. We encourage you to &lt;a href="https://docs.snyk.io/api-end-of-life-eol-process-and-migration-guides"&gt;read the documentation&lt;/a&gt; to understand what you should expect from the program, the &lt;a href="https://docs.snyk.io/api-end-of-life-eol-process-and-migration-guides/api-eol-endpoints-and-key-dates"&gt;endpoints that will be sunsetted, and the timelines and milestones (including dates for brownouts)&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Today we&#8217;re announcing that &lt;a href="https://docs.snyk.io/api-end-of-life-eol-process-and-migration-guides/api-eol-endpoints-and-key-dates"&gt;the endpoints that have met the criteria for end-of-life&lt;/a&gt; will now be marked as deprecated, and the timeline for end-of-life has started. You can find the end-of-life dates and brownouts associated with the specific endpoints &lt;a href="https://docs.snyk.io/api-end-of-life-eol-process-and-migration-guides/api-eol-endpoints-and-key-dates"&gt;in the documentation&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;What you can expect from July 22nd is to see the documentation and endpoint responses state that the selected endpoints are being sunsetted (or the documentation will be removed completely); selected v1 endpoints will be fully removed on January 22nd 2025, and selected experimental endpoints will be fully removed on October 22nd 2024.&lt;/p&gt;
