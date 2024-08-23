@@ -8,6 +8,44 @@ has_children: true
 
 ***
 
+## Coming soon: OAuth 2.0 authentication by default in CLI and IDE plugins
+
+August 23, 2024
+
+**Improved**
+
+We are happy to announce that the OAuth 2.0 authentication protocol will be enabled by default for the new release of CLI and IDE plugins.
+
+### What is OAuth 2.0?
+
+OAuth2 is an open standard for enabling secure, controlled data access. This protocol relies on a pair of short-lived tokens with a built-in refresh mechanism instead of long-lived tokens. It's highly regarded across the industry.
+
+This improvement will be included in the upcoming release of the **CLI** on **Wednesday, August 28th**, and the **IDE plugins** for Visual Studio Code, Jetbrains IDEs, Visual Studio, and Eclipse on **Thursday, August 29th**.
+
+Things you should know about CLI authentication:
+
+* Active users of the CLI will continue to be authenticated
+* The `snyk auth` command, when run locally, will use short-lived tokens to grant user access to Snyk CLI
+* CI/CD use cases will continue as is for environment variable SNYK\_TOKEN as well as `snyk auth`
+* API keys and personal access tokens (PATs) experience remains unchanged
+
+Things you should know about IDE plugin authentication:
+
+* Active users will be prompted to re-authenticate upon the plugin's upgrade.
+* There will be a temporary opportunity to return to the token-based authentication in the plugin’s settings.
+
+### Troubleshooting
+
+A new browser tab does not open automatically:
+
+* Copy a provided URL to the clipboard
+* Open a new browser tab manually and paste the URL
+* Continue the authentication procedure
+
+These changes will be reflected in Snyk documentation over the next week.
+
+***
+
 ## Coming soon: Severity change annotations in IDEs for OSS findings
 
 August 22, 2024
