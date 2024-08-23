@@ -4,8 +4,38 @@
 		<link>https://snyk.github.io/product-updates-docs/</link>
 		<description>Snyk product updates.</description>
 		<language>en-us</language>
-		<pubDate>Thu, 22 Aug 2024 16:25:57 GMT</pubDate>
+		<pubDate>Fri, 23 Aug 2024 18:50:20 GMT</pubDate>
 		<ns0:link href="https://snyk.github.io/product-updates-docs/rss" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Coming soon: OAuth 2.0 authentication by default in CLI and IDE plugins</title>
+			<pubDate>Fri, 23 Aug 2024 18:50:20 GMT</pubDate>
+			<link>https://snyk.github.io/product-updates-docs#coming-soon-oauth-2.0-authentication-by-default-in-cli-and-ide-plugins</link>
+			<guid>https://snyk.github.io/product-updates-docs#coming-soon-oauth-2.0-authentication-by-default-in-cli-and-ide-plugins_August_23_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;Improved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are happy to announce that the OAuth 2.0 authentication protocol will be enabled by default for the new release of CLI and IDE plugins.&lt;/p&gt;
+&lt;h3&gt;What is OAuth 2.0?&lt;/h3&gt;
+&lt;p&gt;OAuth2 is an open standard for enabling secure, controlled data access. This protocol relies on a pair of short-lived tokens with a built-in refresh mechanism instead of long-lived tokens. It's highly regarded across the industry.&lt;/p&gt;
+&lt;p&gt;This improvement will be included in the upcoming release of the &lt;strong&gt;CLI&lt;/strong&gt; on &lt;strong&gt;Wednesday, August 28th&lt;/strong&gt;, and the &lt;strong&gt;IDE plugins&lt;/strong&gt; for Visual Studio Code, Jetbrains IDEs, Visual Studio, and Eclipse on &lt;strong&gt;Thursday, August 29th&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Things you should know about CLI authentication:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Active users of the CLI will continue to be authenticated&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;snyk auth&lt;/code&gt; command, when run locally, will use short-lived tokens to grant user access to Snyk CLI&lt;/li&gt;
+&lt;li&gt;CI/CD use cases will continue as is for environment variable SNYK_TOKEN as well as &lt;code&gt;snyk auth&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;API keys and personal access tokens (PATs) experience remains unchanged&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Things you should know about IDE plugin authentication:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Active users will be prompted to re-authenticate upon the plugin's upgrade.&lt;/li&gt;
+&lt;li&gt;There will be a temporary opportunity to return to the token-based authentication in the plugin&#8217;s settings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Troubleshooting&lt;/h3&gt;
+&lt;p&gt;A new browser tab does not open automatically:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Copy a provided URL to the clipboard&lt;/li&gt;
+&lt;li&gt;Open a new browser tab manually and paste the URL&lt;/li&gt;
+&lt;li&gt;Continue the authentication procedure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These changes will be reflected in Snyk documentation over the next week.&lt;/p&gt;</description>
+		</item>
 		<item>
 			<title>Coming soon: Severity change annotations in IDEs for OSS findings</title>
 			<pubDate>Thu, 22 Aug 2024 16:25:57 GMT</pubDate>
