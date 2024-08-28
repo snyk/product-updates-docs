@@ -4,8 +4,47 @@
 		<link>https://snyk.github.io/product-updates-docs/</link>
 		<description>Snyk product updates.</description>
 		<language>en-us</language>
-		<pubDate>Fri, 23 Aug 2024 18:50:20 GMT</pubDate>
+		<pubDate>Wed, 28 Aug 2024 16:23:04 GMT</pubDate>
 		<ns0:link href="https://snyk.github.io/product-updates-docs/rss" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Announcing Snyk CLI v1.1293.0</title>
+			<pubDate>Wed, 28 Aug 2024 16:23:04 GMT</pubDate>
+			<link>https://snyk.github.io/product-updates-docs#announcing-snyk-cli-v1.1293.0</link>
+			<guid>https://snyk.github.io/product-updates-docs#announcing-snyk-cli-v1.1293.0_August_28_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are pleased to announce the latest stable &lt;a href="https://github.com/snyk/cli/releases/tag/v1.1293.0"&gt;Snyk CLI release v1.1293.0&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We are introducing the following new features in this version. To learn more about bug fixes, please reference the &lt;a href="https://github.com/snyk/cli/releases/tag/v1.1293.0"&gt;release notes&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Introducing OAuth by default for standalone installation&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;OAuth support has been available since &lt;a href="https://github.com/snyk/cli/releases/tag/v1.1267.0"&gt;v.1.1267.0&lt;/a&gt; and from v.1.1293.0 onwards, Snyk CLI will authenticate a local user via OAuth by default. This change strengthens security and access controls, and can be used in both local development as well as where the CLI is integrated directly into CI/CD pipelines. &lt;a href="https://docs.snyk.io/snyk-cli/commands/auth#auth-type-less-than-type-greater-than"&gt;See user docs for more information&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Improved environment configuration&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Introducing a new config subcommand, the experience is now easier and more consistent to configure the environment used in the CLI. By default, the Snyk CLI connects to &lt;a href="https://api.snyk.io/"&gt;https://api.snyk.io/&lt;/a&gt; and for users using regional hosting or on premise instances, it&#8217;s as simple as calling snyk config environment . For more information and to understand how this reduces the impact of misconfiguration, &lt;a href="https://docs.snyk.io/snyk-cli/commands/config-environment"&gt;see the docs here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Support for license issues and improved error details in SBOM test&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;We now support returning license issues in addition to vulnerabilities when using &lt;a href="https://docs.snyk.io/snyk-cli/commands/sbom-test"&gt;sbom test&lt;/a&gt;. When scanning a CycloneDX or SPDX SBOM, Snyk will detect the license for each component in the SBOM and return issues according to the defined or default license policy for your organization. In addition, we&#8217;ve made improvements to CLI errors returned when SBOMs cannot be processed by Snyk.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Improved SBOM generation for Container application dependencies&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;We have improved the accuracy of SBOM generation for Snyk Container. When using &lt;a href="https://docs.snyk.io/snyk-cli/commands/container-sbom"&gt;snyk container sbom&lt;/a&gt;, Snyk scans and generates an SBOM for operating system dependencies as well as application dependencies in your image by default. Prior to this improvement, there were limitations in the underlying analysis causing application dependencies to be omitted under certain conditions.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Enrich CLI results for IaC+ with successful items&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The CLI output for Snyk IaC tests now displays not only the failed rules but also the successful rules, providing visibility into the comprehensive scan coverage and reassurance that configurations are correctly defined (for validation purposes).&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;pnpm CLI support in Early Access&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;We now support &lt;a href="https://updates.snyk.io/cli-support-for-pnpm-now-in-early-access-297716"&gt;testing and monitoring of pnpm projects using the Snyk CLI&lt;/a&gt;. Customers wanting to try this Early Access feature can enable it using &lt;a href="https://docs.snyk.io/snyk-admin/snyk-preview"&gt;Snyk Preview&lt;/a&gt;. &lt;a href="https://docs.snyk.io/supported-languages-package-managers-and-frameworks/javascript/javascript-for-open-source#pnpm"&gt;Details are available in user docs&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can learn more about Snyk CLI &lt;a href="https://docs.snyk.io/snyk-cli/releases-and-channels-for-the-snyk-cli"&gt;release channels&lt;/a&gt; in user documentation.&lt;/p&gt;</description>
+		</item>
+		<item>
+			<title>CLI support for pnpm now in Early Access</title>
+			<pubDate>Wed, 28 Aug 2024 16:21:27 GMT</pubDate>
+			<link>https://snyk.github.io/product-updates-docs#cli-support-for-pnpm-now-in-early-access</link>
+			<guid>https://snyk.github.io/product-updates-docs#cli-support-for-pnpm-now-in-early-access_August_28_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are pleased to announce that CLI support for &lt;a href="https://pnpm.io/"&gt;pnpm&lt;/a&gt; is now available in Early Access &#127881;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pnpm&lt;/code&gt; is a fast, efficient Node.js package manager, with excellent support for managing large monorepos. Managing security risks in pnpm projects is as vital as with any other tool, and we are excited to begin supporting it.&lt;/p&gt;
+&lt;p&gt;When the feature is enabled via &lt;a href="https://docs.snyk.io/snyk-admin/snyk-preview"&gt;Snyk Preview&lt;/a&gt;, you can scan pnpm projects with the Snyk CLI stable version &lt;code&gt;v1.1293.0&lt;/code&gt; and higher.&lt;/p&gt;
+&lt;p&gt;Here's a summary of what's supported, see the &lt;a href="https://docs.snyk.io/supported-languages-package-managers-and-frameworks/javascript/javascript-for-open-source#pnpm"&gt;docs&lt;/a&gt; for more details&#8230;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;pnpm versions &lt;code&gt;7&lt;/code&gt;, &lt;code&gt;8&lt;/code&gt; and &lt;code&gt;9&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;snyk test&lt;/code&gt; and &lt;code&gt;snyk monitor&lt;/code&gt; CLI commands&lt;/li&gt;
+&lt;li&gt;pnpm &lt;a href="https://pnpm.io/catalogs"&gt;catalogs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;pnpm &lt;a href="https://pnpm.io/workspaces"&gt;workspaces&lt;/a&gt;, using the &lt;code&gt;--all-projects&lt;/code&gt; CLI option&lt;/li&gt;
+&lt;li&gt;Standard CLI options for Node.js projects, e.g. &lt;code&gt;--dev&lt;/code&gt; for dev dependencies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Have fun! &#129303;&lt;/p&gt;</description>
+		</item>
 		<item>
 			<title>Coming soon: OAuth 2.0 authentication by default in CLI and IDE plugins</title>
 			<pubDate>Fri, 23 Aug 2024 18:50:20 GMT</pubDate>
