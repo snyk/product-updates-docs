@@ -8,6 +8,68 @@ has_children: true
 
 ***
 
+## Announcing Snyk CLI v1.1293.0
+
+August 28, 2024
+
+**New**
+
+We are pleased to announce the latest stable [Snyk CLI release v1.1293.0](https://github.com/snyk/cli/releases/tag/v1.1293.0).
+
+We are introducing the following new features in this version. To learn more about bug fixes, please reference the [release notes](https://github.com/snyk/cli/releases/tag/v1.1293.0).
+
+### **Introducing OAuth by default for standalone installation**
+
+OAuth support has been available since [v.1.1267.0](https://github.com/snyk/cli/releases/tag/v1.1267.0) and from v.1.1293.0 onwards, Snyk CLI will authenticate a local user via OAuth by default. This change strengthens security and access controls, and can be used in both local development as well as where the CLI is integrated directly into CI/CD pipelines. [See user docs for more information](https://docs.snyk.io/snyk-cli/commands/auth#auth-type-less-than-type-greater-than).
+
+### **Improved environment configuration**
+
+Introducing a new config subcommand, the experience is now easier and more consistent to configure the environment used in the CLI. By default, the Snyk CLI connects to [https://api.snyk.io/](https://api.snyk.io/) and for users using regional hosting or on premise instances, it’s as simple as calling snyk config environment . For more information and to understand how this reduces the impact of misconfiguration, [see the docs here](https://docs.snyk.io/snyk-cli/commands/config-environment).
+
+### **Support for license issues and improved error details in SBOM test**
+
+We now support returning license issues in addition to vulnerabilities when using [sbom test](https://docs.snyk.io/snyk-cli/commands/sbom-test). When scanning a CycloneDX or SPDX SBOM, Snyk will detect the license for each component in the SBOM and return issues according to the defined or default license policy for your organization. In addition, we’ve made improvements to CLI errors returned when SBOMs cannot be processed by Snyk.
+
+### **Improved SBOM generation for Container application dependencies**
+
+We have improved the accuracy of SBOM generation for Snyk Container. When using [snyk container sbom](https://docs.snyk.io/snyk-cli/commands/container-sbom), Snyk scans and generates an SBOM for operating system dependencies as well as application dependencies in your image by default. Prior to this improvement, there were limitations in the underlying analysis causing application dependencies to be omitted under certain conditions.
+
+### **Enrich CLI results for IaC+ with successful items**
+
+The CLI output for Snyk IaC tests now displays not only the failed rules but also the successful rules, providing visibility into the comprehensive scan coverage and reassurance that configurations are correctly defined (for validation purposes).
+
+### **pnpm CLI support in Early Access**
+
+We now support [testing and monitoring of pnpm projects using the Snyk CLI](https://updates.snyk.io/cli-support-for-pnpm-now-in-early-access-297716). Customers wanting to try this Early Access feature can enable it using [Snyk Preview](https://docs.snyk.io/snyk-admin/snyk-preview). [Details are available in user docs](https://docs.snyk.io/supported-languages-package-managers-and-frameworks/javascript/javascript-for-open-source#pnpm).
+
+You can learn more about Snyk CLI [release channels](https://docs.snyk.io/snyk-cli/releases-and-channels-for-the-snyk-cli) in user documentation.
+
+***
+
+## CLI support for pnpm now in Early Access
+
+August 28, 2024
+
+**New**
+
+We are pleased to announce that CLI support for [pnpm](https://pnpm.io/) is now available in Early Access 🎉
+
+`pnpm` is a fast, efficient Node.js package manager, with excellent support for managing large monorepos. Managing security risks in pnpm projects is as vital as with any other tool, and we are excited to begin supporting it.
+
+When the feature is enabled via [Snyk Preview](https://docs.snyk.io/snyk-admin/snyk-preview), you can scan pnpm projects with the Snyk CLI stable version `v1.1293.0` and higher.
+
+Here's a summary of what's supported, see the [docs](https://docs.snyk.io/supported-languages-package-managers-and-frameworks/javascript/javascript-for-open-source#pnpm) for more details…
+
+* pnpm versions `7`, `8` and `9`
+* `snyk test` and `snyk monitor` CLI commands
+* pnpm [catalogs](https://pnpm.io/catalogs)
+* pnpm [workspaces](https://pnpm.io/workspaces), using the `--all-projects` CLI option
+* Standard CLI options for Node.js projects, e.g. `--dev` for dev dependencies
+
+Have fun! 🤗
+
+***
+
 ## Coming soon: OAuth 2.0 authentication by default in CLI and IDE plugins
 
 August 23, 2024
