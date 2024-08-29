@@ -4,8 +4,41 @@
 		<link>https://snyk.github.io/product-updates-docs/</link>
 		<description>Snyk product updates.</description>
 		<language>en-us</language>
-		<pubDate>Wed, 28 Aug 2024 16:23:04 GMT</pubDate>
+		<pubDate>Thu, 29 Aug 2024 17:44:44 GMT</pubDate>
 		<ns0:link href="https://snyk.github.io/product-updates-docs/rss" rel="self" type="application/rss+xml" />
+		<item>
+			<title>New versions of Snyk IDE plugins</title>
+			<pubDate>Thu, 29 Aug 2024 17:44:44 GMT</pubDate>
+			<link>https://snyk.github.io/product-updates-docs#new-versions-of-snyk-ide-plugins</link>
+			<guid>https://snyk.github.io/product-updates-docs#new-versions-of-snyk-ide-plugins_August_29_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are pleased to announce the latest stable releases for each supported IDE plugin:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://marketplace.visualstudio.com/items?itemName=snyk-security.snyk-vulnerability-scanner\&amp;amp;ssr=false#version-history"&gt;Visual Studio Code v2.18.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://plugins.jetbrains.com/plugin/10972-snyk-security"&gt;JetBrains v2.9.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://marketplace.eclipse.org/content/snyk-security"&gt;Eclipse 2.0.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://marketplace.visualstudio.com/items?itemName=snyk-security.snyk-vulnerability-scanner-vs-2022"&gt;Visual Studio 1.1.63&lt;/a&gt; (only VS 2022)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As part of these releases, we are happy to conclude the work announced previously:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://updates.snyk.io/coming-soon-oauth-2-0-authentication-by-default-in-cli-and-ide-plugins-299321"&gt;OAuth 2.0 authentication&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://updates.snyk.io/coming-soon-severity-change-annotations-in-ides-for-oss-findings-299257"&gt;Severity change annotations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In addition to big features, these releases contain multiple bug fixes and performance improvements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Significantly improved JetBrains performance by moving business logic from the UI thread to the separate one on the background&lt;/li&gt;
+&lt;li&gt;Unified and Improved rendering of IAC findings in all VSC and JetBrains&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Snyk documentation has been updated with How-to pages about authentication. For example, &lt;a href="https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-ide-plugins-and-extensions/jetbrains-plugins/authentication-for-the-jetbrains-plugins"&gt;JetBrains authentication&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We encourage everyone to upgrade to the newest versions.&lt;/p&gt;</description>
+		</item>
+		<item>
+			<title>Vulnerabilities Detail report format</title>
+			<pubDate>Wed, 28 Aug 2024 17:43:21 GMT</pubDate>
+			<link>https://snyk.github.io/product-updates-docs#vulnerabilities-detail-report-format</link>
+			<guid>https://snyk.github.io/product-updates-docs#vulnerabilities-detail-report-format_August_28_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;Improved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We wanted to share an update on how users can interact with issue details from within the Vulnerabilities Detail report. To improve usability and consistency across the product, the nested table pattern previously used in this report has been replaced with a drawer. Clicking the vulnerability name in the report table will now activate a drawer with increased area to display details, pagination, and affected projects. Also within the drawer is an additional link to the Issue Details report, with included context, for deeper exploration.&lt;/p&gt;
+&lt;figure&gt;&lt;img src="assets/vulnerabilities_details.png" alt=""&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/figure&gt;</description>
+		</item>
 		<item>
 			<title>Announcing Snyk CLI v1.1293.0</title>
 			<pubDate>Wed, 28 Aug 2024 16:23:04 GMT</pubDate>

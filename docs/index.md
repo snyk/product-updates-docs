@@ -8,6 +8,47 @@ has_children: true
 
 ***
 
+## New versions of Snyk IDE plugins
+
+August 29, 2024
+
+**New**
+
+We are pleased to announce the latest stable releases for each supported IDE plugin:
+
+* [Visual Studio Code v2.18.1](https://marketplace.visualstudio.com/items?itemName=snyk-security.snyk-vulnerability-scanner\&ssr=false#version-history)
+* [JetBrains v2.9.0](https://plugins.jetbrains.com/plugin/10972-snyk-security)
+* [Eclipse 2.0.2](https://marketplace.eclipse.org/content/snyk-security)
+* [Visual Studio 1.1.63](https://marketplace.visualstudio.com/items?itemName=snyk-security.snyk-vulnerability-scanner-vs-2022) (only VS 2022)
+
+As part of these releases, we are happy to conclude the work announced previously:
+
+* [OAuth 2.0 authentication](https://updates.snyk.io/coming-soon-oauth-2-0-authentication-by-default-in-cli-and-ide-plugins-299321)
+* [Severity change annotations](https://updates.snyk.io/coming-soon-severity-change-annotations-in-ides-for-oss-findings-299257)
+
+In addition to big features, these releases contain multiple bug fixes and performance improvements:
+
+* Significantly improved JetBrains performance by moving business logic from the UI thread to the separate one on the background
+* Unified and Improved rendering of IAC findings in all VSC and JetBrains
+
+Snyk documentation has been updated with How-to pages about authentication. For example, [JetBrains authentication](https://docs.snyk.io/scm-ide-and-ci-cd-integrations/snyk-ide-plugins-and-extensions/jetbrains-plugins/authentication-for-the-jetbrains-plugins)
+
+We encourage everyone to upgrade to the newest versions.
+
+***
+
+## Vulnerabilities Detail report format
+
+August 28, 2024
+
+**Improved**
+
+We wanted to share an update on how users can interact with issue details from within the Vulnerabilities Detail report. To improve usability and consistency across the product, the nested table pattern previously used in this report has been replaced with a drawer. Clicking the vulnerability name in the report table will now activate a drawer with increased area to display details, pagination, and affected projects. Also within the drawer is an additional link to the Issue Details report, with included context, for deeper exploration.
+
+<figure><img src="assets/vulnerabilities_details.png" alt=""><figcaption></figcaption></figure>
+
+***
+
 ## Announcing Snyk CLI v1.1293.0
 
 August 28, 2024
