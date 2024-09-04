@@ -8,6 +8,24 @@ has_children: true
 
 ***
 
+## Improved Gradle scan accuracy now in Early Access
+
+September 4, 2024
+
+**Improved**
+
+We are pleased to announce that improved accuracy for Gradle projects imported via git integrations is now in Early Access 🙌
+
+[Gradle](https://gradle.org/) is a powerful build tool with complex configuration and dependency management features, which has traditionally meant the only way to get good SCA results is to scan in CI/CD pipelines.
+
+With this Early Access release, you can now also reliably scan your Gradle applications simply by [connecting Snyk to your git repositories](https://docs.snyk.io/scan-using-snyk/import-project-repository).
+
+This makes it easier to roll out at scale across your organisation, and to benefit from shift-left, developer friendly features such as [pull request checks](https://docs.snyk.io/scan-using-snyk/pull-requests/pull-request-checks).
+
+For more details on improved Gradle scanning, and how to get started, see our [documentation](https://docs.snyk.io/supported-languages-package-managers-and-frameworks/java-and-kotlin/git-repositories-with-maven-and-gradle).
+
+***
+
 ## New versions of Snyk IDE plugins
 
 August 29, 2024
