@@ -4,8 +4,26 @@
 		<link>https://snyk.github.io/product-updates-docs/</link>
 		<description>Snyk product updates.</description>
 		<language>en-us</language>
-		<pubDate>Thu, 05 Sep 2024 12:18:51 GMT</pubDate>
+		<pubDate>Thu, 05 Sep 2024 17:02:15 GMT</pubDate>
 		<ns0:link href="https://snyk.github.io/product-updates-docs/rss" rel="self" type="application/rss+xml" />
+		<item>
+			<title>New filters in the IDE &amp; CLI usage Report</title>
+			<pubDate>Thu, 05 Sep 2024 17:02:15 GMT</pubDate>
+			<link>https://snyk.github.io/product-updates-docs#new-filters-in-the-ide-&amp;-cli-usage-report</link>
+			<guid>https://snyk.github.io/product-updates-docs#new-filters-in-the-ide-&amp;-cli-usage-report_September_5_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;New&lt;/b&gt;&lt;/p&gt;&lt;p&gt;The Developer IDE and CLI usage Report was enhanced with new filters, enabling deeper insights into Snyk IDE and CLI adoption in your company. The new filters include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Environment filter:&lt;/strong&gt; analyze usage for specific coding environments, such as VS Code, IntelliJ, Visual Studio, Eclipse, and CLI.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Snyk product filter:&lt;/strong&gt; refine the viewed metrics by focusing on the specific Snyk Products that executed the scan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With these new filters, you can explore additional use-cases, such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Comparing scan adoption by organizations for specific Snyk products or IDEs.&lt;/li&gt;
+&lt;li&gt;Reviewing developers usage trend by Snyk product within selected IDEs.&lt;/li&gt;
+&lt;li&gt;Measuring IDE usage according to the Snyk product of interest.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To learn more about the Developer IDE and CLI usage Report visit our &lt;a href="https://docs.snyk.io/manage-risk/reporting/available-snyk-reports#developer-ide-and-cli-usage"&gt;product docs&lt;/a&gt;. For any questions, please contact your Snyk account team.&lt;/p&gt;</description>
+		</item>
 		<item>
 			<title>Universal Broker Early Access</title>
 			<pubDate>Wed, 04 Sep 2024 12:18:51 GMT</pubDate>
