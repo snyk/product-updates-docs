@@ -4,8 +4,20 @@
 		<link>https://snyk.github.io/product-updates-docs/</link>
 		<description>Snyk product updates.</description>
 		<language>en-us</language>
-		<pubDate>Wed, 04 Sep 2024 17:05:34 GMT</pubDate>
+		<pubDate>Thu, 05 Sep 2024 12:18:51 GMT</pubDate>
 		<ns0:link href="https://snyk.github.io/product-updates-docs/rss" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Universal Broker Early Access</title>
+			<pubDate>Wed, 04 Sep 2024 12:18:51 GMT</pubDate>
+			<link>https://snyk.github.io/product-updates-docs#universal-broker-early-access</link>
+			<guid>https://snyk.github.io/product-updates-docs#universal-broker-early-access_September_4_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;Improved**, **Early Access&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are pleased to announce the Broker improvement: Universal Broker!&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;Universal Broker&lt;/strong&gt; is an innovative improvement to the Broker, providing a more scalable, secure, and user-friendly platform to alleviate management of Snyk Broker deployments and connections.&lt;/p&gt;
+&lt;p&gt;Previously, Snyk customers encountered difficulties managing multiple broker connections, leading to configuration challenges and risks. Universal Broker simplifies this process by allowing customers to consolidate all system types into a single Broker instance. Additionally, by implementing authenticated clients and abstracting sensitive values from the user interface, Snyk reaffirms its commitment to security.&lt;/p&gt;
+&lt;p&gt;By safeguarding credentials and providing a more intuitive user experience, this update aims to enhance overall efficiency and security.&lt;/p&gt;
+&lt;p&gt;The Universal Broker is particularly beneficial for customers who prioritize GitHub Server App or find managing multiple broker clients cumbersome.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href="https://docs.snyk.io/enterprise-setup/snyk-broker/universal-broker"&gt;user documentation here!&lt;/a&gt;&lt;/p&gt;</description>
+		</item>
 		<item>
 			<title>Improved Gradle scan accuracy now in Early Access</title>
 			<pubDate>Wed, 04 Sep 2024 17:05:34 GMT</pubDate>
