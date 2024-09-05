@@ -8,6 +8,26 @@ has_children: true
 
 ***
 
+## Universal Broker Early Access
+
+September 4, 2024
+
+**Improved**, **Early Access**
+
+We are pleased to announce the Broker improvement: Universal Broker!
+
+The **Universal Broker** is an innovative improvement to the Broker, providing a more scalable, secure, and user-friendly platform to alleviate management of Snyk Broker deployments and connections.
+
+Previously, Snyk customers encountered difficulties managing multiple broker connections, leading to configuration challenges and risks. Universal Broker simplifies this process by allowing customers to consolidate all system types into a single Broker instance. Additionally, by implementing authenticated clients and abstracting sensitive values from the user interface, Snyk reaffirms its commitment to security.
+
+By safeguarding credentials and providing a more intuitive user experience, this update aims to enhance overall efficiency and security.
+
+The Universal Broker is particularly beneficial for customers who prioritize GitHub Server App or find managing multiple broker clients cumbersome.
+
+Check out the [user documentation here!](https://docs.snyk.io/enterprise-setup/snyk-broker/universal-broker)
+
+***
+
 ## Improved Gradle scan accuracy now in Early Access
 
 September 4, 2024
