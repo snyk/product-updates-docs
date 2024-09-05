@@ -8,6 +8,27 @@ has_children: true
 
 ***
 
+## New filters in the IDE & CLI usage Report
+
+September 5, 2024
+
+**New**
+
+The Developer IDE and CLI usage Report was enhanced with new filters, enabling deeper insights into Snyk IDE and CLI adoption in your company. The new filters include:
+
+* **Environment filter:** analyze usage for specific coding environments, such as VS Code, IntelliJ, Visual Studio, Eclipse, and CLI.
+* **Snyk product filter:** refine the viewed metrics by focusing on the specific Snyk Products that executed the scan.
+
+With these new filters, you can explore additional use-cases, such as:
+
+* Comparing scan adoption by organizations for specific Snyk products or IDEs.
+* Reviewing developers usage trend by Snyk product within selected IDEs.
+* Measuring IDE usage according to the Snyk product of interest.
+
+To learn more about the Developer IDE and CLI usage Report visit our [product docs](https://docs.snyk.io/manage-risk/reporting/available-snyk-reports#developer-ide-and-cli-usage). For any questions, please contact your Snyk account team.
+
+***
+
 ## Universal Broker Early Access
 
 September 4, 2024
