@@ -8,6 +8,26 @@ has_children: true
 
 ***
 
+## Simplified API Versioning
+
+September 17, 2024
+
+**New**
+
+As Snyk's API landscape is evolving through [efforts to end-of-life v1 and non-GA REST APIs](https://headwayapp.co/snyk-io-updates), we need to also evolve our approach to REST API versioning. Therefore we are excited to announce an upcoming simplification to our API versioning scheme, aimed at reducing customer confusion while not introducing any breaking changes.
+
+Please note that existing APIs and documentation will remain unchanged. Your existing integrations should be unaffected by this new versioning strategy.
+
+After October 17th, no new experimental endpoints will be created. Instead, we are introducing new “/closed-beta” endpoints. The purpose of these endpoints will be to provide a handful of users with a tech preview, giving them a sneak peek at new API features we're considering shipping to GA in the future. Closed beta endpoints will not be appropriate for integrations or major workloads.
+
+For these new closed beta and beta endpoints, we will be enforcing our API deprecation policy at the sunset date. Removing outdated endpoints will simplify our API landscape further and hopefully reduce confusion when customers are trying to find the endpoint that fits their use case.
+
+As part of versioning simplification, Snyk will expose one API specification per version-date, rather than one for each stability. New versions of the Snyk API will only be published when necessitated by breaking changes. For newer versions, you should only specify the date for beta versions, i.e 2024-08-02 rather than 2024-08-02\~beta. It's important to note that existing versions won't be affected by these changes; this new approach only applies to upcoming new versions.
+
+We hope that this simplified API Versioning strategy will reduce customer confusion and make it easier to find the best endpoint for your use case.
+
+***
+
 ## New filters in the IDE & CLI usage Report
 
 September 5, 2024
