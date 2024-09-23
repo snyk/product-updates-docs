@@ -8,6 +8,27 @@ has_children: true
 
 ***
 
+## High-Context Inline Comments are available in Closed Beta
+
+September 23, 2024
+
+**New**, **Closed Beta**
+
+We are announcing the release of High-Context Inline Comments as part of our ongoing initiatives to enhance the pull request experience. This new feature brings detailed security findings directly into your PRs, streamlining the process of identifying and fixing vulnerabilities without leaving your SCM. With High-Context Inline Comments, you’ll see each SAST security finding alongside key information such as CWE (Common Weakness Enumeration) and Priority Score. This makes it easier to act on vulnerabilities quickly, reducing the need for developers to switch between platforms and improving your team’s workflow.
+
+Comments are available to the following SCM integrations:
+
+* GitHub: GitHub OAuth, GitHub Enterprise (PAT), and GitHub Cloud App
+* Bitbucket: Bitbucket Cloud (PAT), Bitbucket Cloud App, Bitbucket Server
+
+We’ve expanded support to include Bitbucket Server, and for customers using Snyk Broker, we’ve added support for both PR comments and High-Context Inline Comments.
+
+<figure><img src="assets/inline-comments.png" alt=""><figcaption></figcaption></figure>
+
+If you’re interested in enabling this feature for your organization, please reach out to your account team. This is part of a series of enhancements designed to improve your developers’ pull request experience with Snyk, and we remain committed to further improving it. If you were enabled for PR comments during Phase 1 as announced [here](https://headwayapp.co/snyk-io-updates/pr-comments-for-snyk-pr-checks-are-now-in-closed-beta-292934), no further action is required.
+
+***
+
 ## Simplified API Versioning
 
 September 17, 2024

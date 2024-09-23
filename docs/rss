@@ -4,8 +4,24 @@
 		<link>https://snyk.github.io/product-updates-docs/</link>
 		<description>Snyk product updates.</description>
 		<language>en-us</language>
-		<pubDate>Wed, 18 Sep 2024 08:32:47 GMT</pubDate>
+		<pubDate>Mon, 23 Sep 2024 12:43:16 GMT</pubDate>
 		<ns0:link href="https://snyk.github.io/product-updates-docs/rss" rel="self" type="application/rss+xml" />
+		<item>
+			<title>High-Context Inline Comments are available in Closed Beta</title>
+			<pubDate>Mon, 23 Sep 2024 12:43:16 GMT</pubDate>
+			<link>https://snyk.github.io/product-updates-docs#high-context-inline-comments-are-available-in-closed-beta</link>
+			<guid>https://snyk.github.io/product-updates-docs#high-context-inline-comments-are-available-in-closed-beta_September_23_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;New**, **Closed Beta&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We are announcing the release of High-Context Inline Comments as part of our ongoing initiatives to enhance the pull request experience. This new feature brings detailed security findings directly into your PRs, streamlining the process of identifying and fixing vulnerabilities without leaving your SCM. With High-Context Inline Comments, you&#8217;ll see each SAST security finding alongside key information such as CWE (Common Weakness Enumeration) and Priority Score. This makes it easier to act on vulnerabilities quickly, reducing the need for developers to switch between platforms and improving your team&#8217;s workflow.&lt;/p&gt;
+&lt;p&gt;Comments are available to the following SCM integrations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: GitHub OAuth, GitHub Enterprise (PAT), and GitHub Cloud App&lt;/li&gt;
+&lt;li&gt;Bitbucket: Bitbucket Cloud (PAT), Bitbucket Cloud App, Bitbucket Server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We&#8217;ve expanded support to include Bitbucket Server, and for customers using Snyk Broker, we&#8217;ve added support for both PR comments and High-Context Inline Comments.&lt;/p&gt;
+&lt;figure&gt;&lt;img src="assets/inline-comments.png" alt=""&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you&#8217;re interested in enabling this feature for your organization, please reach out to your account team. This is part of a series of enhancements designed to improve your developers&#8217; pull request experience with Snyk, and we remain committed to further improving it. If you were enabled for PR comments during Phase 1 as announced &lt;a href="https://headwayapp.co/snyk-io-updates/pr-comments-for-snyk-pr-checks-are-now-in-closed-beta-292934"&gt;here&lt;/a&gt;, no further action is required.&lt;/p&gt;</description>
+		</item>
 		<item>
 			<title>Simplified API Versioning</title>
 			<pubDate>Tue, 17 Sep 2024 08:32:47 GMT</pubDate>
