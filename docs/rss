@@ -4,8 +4,19 @@
 		<link>https://snyk.github.io/product-updates-docs/</link>
 		<description>Snyk product updates.</description>
 		<language>en-us</language>
-		<pubDate>Mon, 23 Sep 2024 12:43:16 GMT</pubDate>
+		<pubDate>Wed, 25 Sep 2024 16:01:24 GMT</pubDate>
 		<ns0:link href="https://snyk.github.io/product-updates-docs/rss" rel="self" type="application/rss+xml" />
+		<item>
+			<title>PR Comments (Closed Beta) are now available for BitBucket Server</title>
+			<pubDate>Wed, 25 Sep 2024 16:01:24 GMT</pubDate>
+			<link>https://snyk.github.io/product-updates-docs#pr-comments-closed-beta-are-now-available-for-bitbucket-server</link>
+			<guid>https://snyk.github.io/product-updates-docs#pr-comments-closed-beta-are-now-available-for-bitbucket-server_September_25_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;New**, **Closed Beta&lt;/b&gt;&lt;/p&gt;&lt;p&gt;PR Comments for Snyk PR Checks, &lt;a href="https://headwayapp.co/snyk-io-updates/pr-comments-for-snyk-pr-checks-are-now-in-closed-beta-292934"&gt;announced in Closed Beta&lt;/a&gt; earlier this year, now supports BitBucket Server!&amp;#x20;&lt;/p&gt;
+&lt;p&gt;With this new feature enabled, customers using Snyk PR Checks will receive a new PR comment on each Pull Request that summarizes the most recent PR check results according to the type of check and severity of findings.&lt;/p&gt;
+&lt;figure&gt;&lt;img src="assets/pr-comments-bitbucket.png" alt=""&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you're interested in enabling this feature for your organization, please reach out to your account team.&lt;/p&gt;</description>
+		</item>
 		<item>
 			<title>High-Context Inline Comments are available in Closed Beta</title>
 			<pubDate>Mon, 23 Sep 2024 12:43:16 GMT</pubDate>
