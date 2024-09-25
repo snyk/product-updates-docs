@@ -8,6 +8,22 @@ has_children: true
 
 ***
 
+## PR Comments (Closed Beta) are now available for BitBucket Server
+
+September 25, 2024
+
+**New**, **Closed Beta**
+
+PR Comments for Snyk PR Checks, [announced in Closed Beta](https://headwayapp.co/snyk-io-updates/pr-comments-for-snyk-pr-checks-are-now-in-closed-beta-292934) earlier this year, now supports BitBucket Server!&#x20;
+
+With this new feature enabled, customers using Snyk PR Checks will receive a new PR comment on each Pull Request that summarizes the most recent PR check results according to the type of check and severity of findings.
+
+<figure><img src="assets/pr-comments-bitbucket.png" alt=""><figcaption></figcaption></figure>
+
+If you're interested in enabling this feature for your organization, please reach out to your account team.
+
+***
+
 ## High-Context Inline Comments are available in Closed Beta
 
 September 23, 2024
