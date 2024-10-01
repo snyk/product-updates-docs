@@ -8,13 +8,29 @@ has_children: true
 
 ***
 
+## Recurring Test Frequency Update for Users on the Free Plan
+
+September 26, 2024
+
+**Improved**
+
+Effective October 4th, we will be adjusting the testing frequency for free projects to a weekly cadence. This change is designed to optimize resource allocation and ensure equitable access to our services for all users.
+
+Please note that this adjustment will not impact your ability to initiate via manual retest in app.snyk.io or CLI.
+
+This update will be released on Friday, October 4th.
+
+For increases in test limits and the ability to use daily project test frequencies, upgrade to a paid plan by visiting [https://snyk.io/plans/.](https://snyk.io/plans/)
+
+***
+
 ## PR Comments (Closed Beta) are now available for BitBucket Server
 
 September 25, 2024
 
 **New**, **Closed Beta**
 
-PR Comments for Snyk PR Checks, [announced in Closed Beta](https://headwayapp.co/snyk-io-updates/pr-comments-for-snyk-pr-checks-are-now-in-closed-beta-292934) earlier this year, now supports BitBucket Server!&#x20;
+PR Comments for Snyk PR Checks, [announced in Closed Beta](https://headwayapp.co/snyk-io-updates/pr-comments-for-snyk-pr-checks-are-now-in-closed-beta-292934) earlier this year, now supports BitBucket Server!
 
 With this new feature enabled, customers using Snyk PR Checks will receive a new PR comment on each Pull Request that summarizes the most recent PR check results according to the type of check and severity of findings.
 
