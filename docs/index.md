@@ -22,7 +22,7 @@ From our benchmarking, we expect you’ll see improved accuracy with reduction i
 
 This improvement will be released on **October 23rd**, and will take effect automatically with no action required to enable. It will be available across all product surfaces and environments.
 
-{% hint style="warning" %}
+{: .note }
 If you expect this to impact your triage, prioritization, and reporting processes, please plan accordingly. You can learn more about how to use Snyk’s reports to review findings and changes for your Projects [here](https://docs.snyk.io/manage-risk/reporting/available-snyk-reports#issues-summary-report).
 
 
