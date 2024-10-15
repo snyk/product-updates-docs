@@ -4,8 +4,29 @@
 		<link>https://snyk.github.io/product-updates-docs/</link>
 		<description>Snyk product updates.</description>
 		<language>en-us</language>
-		<pubDate>Tue, 01 Oct 2024 19:04:18 GMT</pubDate>
+		<pubDate>Tue, 15 Oct 2024 18:40:48 GMT</pubDate>
 		<ns0:link href="https://snyk.github.io/product-updates-docs/rss" rel="self" type="application/rss+xml" />
+		<item>
+			<title>REST Membership APIs</title>
+			<pubDate>Tue, 08 Oct 2024 18:40:48 GMT</pubDate>
+			<link>https://snyk.github.io/product-updates-docs#rest-membership-apis</link>
+			<guid>https://snyk.github.io/product-updates-docs#rest-membership-apis_October_8_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;New**, **Improved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;We're excited to introduce new REST versions of our Group and Organization membership APIs.&lt;/p&gt;
+&lt;p&gt;As we &lt;a href="https://headwayapp.co/snyk-io-updates/simplified-api-versioning-300840"&gt;mentioned in past updates&lt;/a&gt;, Snyk&#8217;s API landscape is evolving, and we&#8217;re making efforts towards sunsetting our v1 and non-GA REST APIs. These new endpoints provide a more robust and efficient alternative to the v1 Membership ones, which are not going away for the time being.&lt;/p&gt;
+&lt;p&gt;The new endpoints have improved functionality under the hood, such as cascading membership checks and updated responses. You can find all the details in our REST API docs: &lt;a href="https://docs.snyk.io/snyk-api/reference/groups"&gt;Group memberships&lt;/a&gt; &amp;amp; &lt;a href="https://docs.snyk.io/snyk-api/reference/orgs"&gt;Organization memberships&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
+		<item>
+			<title>Improvements to C# for Snyk Code, including C#12 and .NET8 support</title>
+			<pubDate>Fri, 11 Oct 2024 18:37:33 GMT</pubDate>
+			<link>https://snyk.github.io/product-updates-docs#improvements-to-c#-for-snyk-code,-including-c#12-and-.net8-support</link>
+			<guid>https://snyk.github.io/product-updates-docs#improvements-to-c#-for-snyk-code,-including-c#12-and-.net8-support_October_11_2024</guid>
+			<description>&lt;p&gt;&lt;b&gt;Improved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Today, we&#8217;re excited to now announce that we are launching a new analysis engine that&#8217;s much smarter at analyzing your C# code, including both older versions of the language and C#12.&lt;/p&gt;
+&lt;p&gt;This builds on our &lt;a href="https://docs.snyk.io/supported-languages-package-managers-and-frameworks/.net/.net-for-code-analysis"&gt;existing support for C# and .NET&lt;/a&gt;, and allows us to provide coverage for the .NET 8 framework ahead of the upcoming EOL for .NET 6 in early November.&lt;/p&gt;
+&lt;p&gt;From our benchmarking, we expect you&#8217;ll see improved accuracy with reduction in both false positives and false negatives across all your C# and .NET projects. Given the added coverage for the C#12 syntax, you may also see an increase in findings for applicable projects.&lt;/p&gt;
+&lt;p&gt;This improvement will be released on &lt;strong&gt;October 23rd&lt;/strong&gt;, and will take effect automatically with no action required to enable. It will be available across all product surfaces and environments.&lt;/p&gt;
+&lt;p&gt;{% hint style="warning" %}
+If you expect this to impact your triage, prioritization, and reporting processes, please plan accordingly. You can learn more about how to use Snyk&#8217;s reports to review findings and changes for your Projects &lt;a href="https://docs.snyk.io/manage-risk/reporting/available-snyk-reports#issues-summary-report"&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
 		<item>
 			<title>Recurring Test Frequency Update for Users on the Free Plan</title>
 			<pubDate>Thu, 26 Sep 2024 19:04:18 GMT</pubDate>

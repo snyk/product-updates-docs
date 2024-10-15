@@ -8,6 +8,40 @@ has_children: true
 
 ***
 
+## Improvements to C# for Snyk Code, including C#12 and .NET8 support
+
+October 11, 2024
+
+**Improved**
+
+Today, we’re excited to now announce that we are launching a new analysis engine that’s much smarter at analyzing your C# code, including both older versions of the language and C#12.
+
+This builds on our [existing support for C# and .NET](https://docs.snyk.io/supported-languages-package-managers-and-frameworks/.net/.net-for-code-analysis), and allows us to provide coverage for the .NET 8 framework ahead of the upcoming EOL for .NET 6 in early November.
+
+From our benchmarking, we expect you’ll see improved accuracy with reduction in both false positives and false negatives across all your C# and .NET projects. Given the added coverage for the C#12 syntax, you may also see an increase in findings for applicable projects.
+
+This improvement will be released on **October 23rd**, and will take effect automatically with no action required to enable. It will be available across all product surfaces and environments.
+
+{% hint style="warning" %}
+If you expect this to impact your triage, prioritization, and reporting processes, please plan accordingly. You can learn more about how to use Snyk’s reports to review findings and changes for your Projects [here](https://docs.snyk.io/manage-risk/reporting/available-snyk-reports#issues-summary-report).
+
+
+***
+
+## REST Membership APIs
+
+October 8, 2024
+
+**New**, **Improved**
+
+We're excited to introduce new REST versions of our Group and Organization membership APIs.
+
+As we [mentioned in past updates](https://headwayapp.co/snyk-io-updates/simplified-api-versioning-300840), Snyk’s API landscape is evolving, and we’re making efforts towards sunsetting our v1 and non-GA REST APIs. These new endpoints provide a more robust and efficient alternative to the v1 Membership ones, which are not going away for the time being.
+
+The new endpoints have improved functionality under the hood, such as cascading membership checks and updated responses. You can find all the details in our REST API docs: [Group memberships](https://docs.snyk.io/snyk-api/reference/groups) & [Organization memberships](https://docs.snyk.io/snyk-api/reference/orgs).
+
+***
+
 ## Recurring Test Frequency Update for Users on the Free Plan
 
 September 26, 2024
